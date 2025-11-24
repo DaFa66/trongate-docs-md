@@ -5,7 +5,7 @@ With Trongate's API Explorer, it's easy to create secure, custom API endpoints i
 
 
 
-    ![Screenshot](images/123/trongate9z2y.png)
+    ![Screenshot](https://trongate.io/images/123/trongate9z2y.png)
     
 *API Explorer screenshot.*
 

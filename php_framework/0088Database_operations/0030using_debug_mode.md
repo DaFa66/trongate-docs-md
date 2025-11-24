@@ -20,7 +20,7 @@ With Debug Mode enabled, PDO will display the SQL queries that will be executed 
 
 ## Debug Mode Screenshot
 
-![Diagram of Trongate Modules Directory](images/debug_mode.webp)
+![Diagram of Trongate Modules Directory](https://trongate.io/images/debug_mode.webp)
         
 *A screenshot demonstrating a webpage with Debug Mode enabled.*
 > [!NOTE]

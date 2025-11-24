@@ -48,7 +48,7 @@ Below is an example of a view file that contains the flashdata() method.
 
 
 
-    ![screenshot](images/26/flashdatwBKu.png)
+    ![screenshot](https://trongate.io/images/26/flashdatwBKu.png)
     
 *Screenshot form a text editor, demonstrating flashdata being added below page headline.*
 

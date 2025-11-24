@@ -22,7 +22,7 @@ Save the 'ahoy.js' file inside the 'js' directory located within 'assets'.
 
 
 
-    ![The contents of a basic Trongate web application](images/79/_left_siCTKy.png)
+    ![The contents of a basic Trongate web application](https://trongate.io/images/79/_left_siCTKy.png)
     
 *Directory structure screenshot*
 
@@ -63,7 +63,7 @@ Save the file and refresh the page in the browser. If a JavaScript alert box app
 
 
 
-    ![browser screenshot](images/79/_javascr327M.png)
+    ![browser screenshot](https://trongate.io/images/79/_javascr327M.png)
     
 *Screenshot taken from the URL, <base-url>welcome/hello*
 

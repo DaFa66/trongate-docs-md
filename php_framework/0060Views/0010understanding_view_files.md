@@ -3,7 +3,7 @@
 
 View files in Trongate are designated for *presentation code*, primarily HTML. These files may also include other types of code, such as JavaScript and CSS. Typically, each module within a Trongate application contains a directory named 'views' to store these files.
 
-![The directory structure within a typical Trongate module.](images/37/trongatefMj9.png)
+![The directory structure within a typical Trongate module.](https://trongate.io/images/37/trongatefMj9.png)
         
 *The directory structure within a typical Trongate module.*
 

@@ -74,7 +74,7 @@ In the 'greeting.php' view file, you can directly echo the `$name` variable:
 
 Output:
 
-![Screenshot showing greeting message with a name](images/75/hello_john.png)
+![Screenshot showing greeting message with a name](https://trongate.io/images/75/hello_john.png)
         
 *Screenshot showing greeting message with a name.*
 > [!CAUTION]

@@ -168,7 +168,7 @@ Sample output:
 
 
 
-    ![screenshot](images/35/json_scrfqQY.png)
+    ![screenshot](https://trongate.io/images/35/json_scrfqQY.png)
     
 *Screenshot showing sample output after having invoked the `json()` function.*
 

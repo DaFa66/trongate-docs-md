@@ -19,7 +19,7 @@ The code above could be used to produce a form that looks like this:
 
 
 
-    ![screenshot](images/29/pic_uploaQqj.png)
+    ![screenshot](https://trongate.io/images/29/pic_uploaQqj.png)
     
 *Screenshot showing example of file uploader form.*
 

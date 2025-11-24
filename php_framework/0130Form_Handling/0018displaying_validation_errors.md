@@ -75,7 +75,7 @@ There are two techniques that can be used to display validation errors:
 
 This approach involves displaying all validation errors at once, typically at the top of the form.
 
-![normal form validation errors](images/validation_errors_normal.png)
+![normal form validation errors](https://trongate.io/images/validation_errors_normal.png)
         
 *A screenshot depicting form validation errors being presented as a block of text.*
 ### How to Implement:
@@ -122,7 +122,7 @@ Trongate offers an alternative methodology for displaying form validation errors
 
 With *inline validation errors* applied, individual form validation errors are displayed next to their respective form fields, providing what some consider to be a more modern user experience.
 
-![inline form validation errors](images/validation_errors_inline.png)
+![inline form validation errors](https://trongate.io/images/validation_errors_inline.png)
         
 *A screenshot depicting inline form validation errors.*
 ### How to Implement:
