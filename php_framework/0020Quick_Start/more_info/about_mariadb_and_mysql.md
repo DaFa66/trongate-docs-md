@@ -1,0 +1,32 @@
+# About MariaDB And MySQL
+
+
+PHP can work with a large variety of databases. This includes 'NoSQL' databases like *MongoDB* and also relational databases like *Postgres*. However, over the years, *MySQL* has been - *by far* - the database that is most often partnered with PHP. MySQL is popular because:
+
+
+- MySQL is incredibly fast
+- MySQL is open source
+- MySQL is relatively easy to learn
+- MySQL is battle-tested (no known bugs)
+
+
+The association between MySQL and PHP dates back to the mid-nineties. For better or for worse, the names 'MySQL' and 'PHP' are so strongly associated that it seems almost impossible to imagine one without having the other. However, in the strictest of terms, change has come to PHP.
+
+
+Back in 2008, Sun Microsystems purchased MySQL for $500 million. Two years later, Oracle bought Sun Microsystems - and therefore acquired ownership of MySQL - as part of a 5.3 billion dollar takeover.
+
+
+Oracle's takeover of Sun Microsystems came as a surprise to the tech industry and no doubt would have inspired the creation of a new open-source 'fork' of MySQL by the name of 'MariaDB'.
+
+
+At the time of writing, the PHP community is somewhat split when it comes to database choice. Some popular downloadable server environments are continuing to use MySQL whilst others have dropped MySQL completely in favour of MariaDB. For example, MAMP is still using MySQL whilst XAMPP has switched to MariaDB.
+
+
+Fortunately, these two different databases are virtually indistinguishable in terms of how they are used.
+
+
+**For simplicity and consistency, this documentation will use the word 'MySQL' to refer to a relational database that is being partnered with PHP. This word is used with the understanding that many users may *not* be using 'MySQL' but may instead be using MariaDB or perhaps even another database type altogether.**
+
+
+Regardless of whether you're using MySQL or MariaDB, rest assured your choice won't affect how you use Trongate or how you build web apps with Trongate. Even though there are a few technical differences (between MySQL and MariaDB) under the hood, you don't have to worry about them!
+

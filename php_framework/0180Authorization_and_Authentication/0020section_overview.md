@@ -1,0 +1,49 @@
+# Section Overview
+
+
+Authorization and authentication are foundational pillars of secure web development, ensuring that users can access the resources they need while protecting sensitive data from unauthorized access. While these terms are often used interchangeably, they serve distinct purposes:
+
+## What is Authentication?
+
+
+Authentication is the process of verifying the identity of a user. It answers the question: "Who are you?" In most applications, this involves a user providing credentials, such as a username and password, to prove their identity. Once authenticated, the system recognizes the user and grants them access to protected areas or resources.
+
+## What is Authorization?
+
+
+Authorization, on the other hand, determines what an authenticated user is allowed to do. It answers the question: "What are you permitted to access or perform?" For example, a regular user might be able to view their profile, while an administrator might have the authority to manage user accounts or modify system settings.
+
+## Trongate's Approach to Authorization & Authentication
+
+
+Trongate provides a robust and flexible system for handling both authentication and authorization through its built-in modules. At the heart of this system lies the concept of **tokens**, which are unique strings representing a user's authenticated session. These tokens are generated upon successful login and stored securely, either in the session, a cookie, or passed via HTTP headers. The token system is designed to work seamlessly with a variety of database tables, enabling developers to define and enforce granular access control.
+
+## Key Components of Trongate's Token System
+
+
+Trongate's token-based security system revolves around three primary database tables, each playing a critical role in managing user access:
+
+
+- **trongate_user_levels:** Defines various user levels within the application, such as 'admin' or 'member'. These levels determine the scope of a user's permissions.
+- **trongate_users:** Stores user credentials and associates each user with a specific user level. This table acts as the bridge between users and their roles.
+- **trongate_tokens:** Manages the generation, storage, and validation of authentication tokens. Tokens are time-limited and automatically purged when expired, ensuring a high level of security.
+
+
+In addition to these core tables, Trongate integrates with other modules to provide a comprehensive security framework. For instance, the **Trongate Security** module enforces access control based on predefined scenarios, while the **Trongate Tokens** module handles token generation and validation. Together, these components ensure that only authorized users can access specific parts of the application.
+
+## Understanding Scenarios
+
+
+A **scenario** in Trongate refers to a specific context or condition under which access control is enforced. For example, accessing the admin panel might require a different level of authorization compared to viewing a members-only page. Scenarios allow developers to define granular rules for different parts of the application, ensuring that users are granted access only to the resources they are permitted to use. By leveraging scenarios, Trongate provides a flexible and modular approach to authorization, making it easy to adapt to the unique needs of your application.
+
+## How Trongate's Token System Works
+
+
+Trongate's token system operates in a database-driven manner, requiring a connection to a MySQL database for full functionality. When a user successfully logs in, a token is generated and stored in the **trongate_tokens** table. This token is then used to authenticate the user across subsequent requests, whether submitted via HTTP headers, cookies, or sessions. The system validates the token against the database, checking its expiration date and associated user level to determine whether access should be granted.
+
+
+One of the key strengths of Trongate's token system is its flexibility. Developers can define which events trigger token generation—such as completing a registration form, subscribing to a service, or clicking a confirmation link. Additionally, the system is designed to be future-proof, allowing integration with various authentication mechanisms beyond traditional username/password methods. Whether you're building a web application, a mobile app, or an API-driven service, Trongate's token system provides a secure and scalable foundation for managing user access.
+
+
+In the following sections, we will delve deeper into the mechanics of Trongate's token system, exploring how these components interact and how you can leverage them to build secure, user-friendly applications.
+

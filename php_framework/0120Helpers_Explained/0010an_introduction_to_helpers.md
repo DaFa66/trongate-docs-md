@@ -1,0 +1,17 @@
+# An Introduction To Helpers
+
+
+The Trongate framework comes with a variety of useful classes, functions and methods that can help you to carry out common tasks quickly and easily.  From here onwards, we'll use the word 'helper' to refer to any one of these three types of entities.
+
+
+Many PHP frameworks force developers to actively declare which helpers should be loaded, by use of a 'config' file.  Trongate is different. Trongate comes with everything loaded and ready to go. So, it's one more thing that you don't have to worry about!
+
+> [!NOTE]
+> **Just To Let You Know...**
+>
+> By default, Trongate comes with everything loaded. That means, connecting to a database, initialising sessions and loading up an assortment of helper classes. However, even with everything loaded, Trongate is still five times faster than Lumen. That's Lumen - the micro-framework.
+
+
+
+All the Trongate helpers are available upon every page load.  There now follows details about the various helpers that are available for users of the Trongate framework.
+
