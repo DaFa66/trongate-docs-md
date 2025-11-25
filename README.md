@@ -130,7 +130,7 @@ Once Trongate v2 documentation is released, we plan to:
 - Leverage the new modular architecture for better documentation organisation
 
 > [!TIP]
-> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/trongate-v2-beta) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@trongate_framework).
+> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/trongate-v2-beta) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@GlasgowEqualizer).
 
 ---
 
@@ -224,7 +224,7 @@ ls -la
 
 The conversion pipeline follows these steps:
 
-1. **Source Extraction**: HTML files retrieved from the [official Trongate docs repository](https://github.com/trongate/trongate-docs)
+1. **Source Extraction**: HTML files retrieved from the [Trongate docs repository](https://github.com/trongate/trongate-docs)
 2. **Collection Mapping**: Files organised using `docs_collections.json` structure
 3. **HTML to Markdown**: Automated conversion with custom transformations for:
    - Code blocks and syntax highlighting
@@ -346,7 +346,7 @@ The original Trongate documentation and framework are subject to their own licen
 
 - **Trongate Team**: For creating and maintaining the excellent framework and documentation
 - **Community Contributors**: For feedback, bug reports, and improvements
-- **Original HTML Docs**: Sourced from the [official Trongate docs repository](https://github.com/trongate/trongate-docs)
+- **Original HTML Docs**: Sourced from the [Trongate docs repository](https://github.com/trongate/trongate-docs)
 
 ---
 
