@@ -15,7 +15,7 @@ This repository provides the complete Trongate v1 documentation converted from H
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
+- [Overview](#-overview)
 - [What's Coming: Trongate v2](#whats-coming-trongate-v2)
 - [Features](#features)
 - [Repository Structure](#repository-structure)
