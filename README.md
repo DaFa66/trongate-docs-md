@@ -16,17 +16,17 @@ This repository provides the complete Trongate v1 documentation converted from H
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [What's Coming: Trongate v2](#whats-coming-trongate-v2)
-- [Features](#features)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Use Cases](#use-cases)
-- [Conversion Process](#conversion-process)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Status](#status)
-- [Resources](#resources)
-- [License](#license)
+- [What's Coming: Trongate v2](#-whats-coming-trongate-v2)
+- [Features](#-features)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Use Cases](#-use-cases)
+- [Conversion Process](#-conversion-process)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [Status](#-status)
+- [Resources](#-resources)
+- [License](#-license)
 
 ---
 
