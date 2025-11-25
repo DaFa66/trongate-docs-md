@@ -67,21 +67,21 @@ Almost everything becomes a module:
 
 This radical simplification means:
 - Faster framework performance
-- Easier to understand and customize
+- Easier to understand and customise
 - AI engines can easily comprehend the entire framework
-- Community can build specialized modules (e.g., `validation_japan` for Japanese form validation)
+- Community can build specialised modules (e.g., `validation_japan` for Japanese form validation)
 
-#### **Built-in Internationalization**
-Creating multilingual sites with localized validation messages becomes a **3-minute task**. Perfect for global applications!
+#### **Built-in Internationalisation**
+Creating multilingual sites with localised validation messages becomes a **3-minute task**. Perfect for global applications!
 
 #### **Trongate MX Included**
 The powerful HTMX-style JavaScript library will be included by default (but optional to use).
 
-#### **AI-Optimized Design**
+#### **AI-Optimised Design**
 With the tiny engine size, fully automated AI-driven web development becomes feasible. The framework is being designed for the AI era.
 
-#### **Hyper-Optimized Performance**
-Extensive refactoring and optimization work has produced remarkable results:
+#### **Hyper-Optimised Performance**
+Extensive refactoring and optimisation work has produced remarkable results:
 
 **Benchmark Results** (Apache Bench: 1000 requests, 100 concurrent):
 - Test #1: 1,417.03 req/sec
@@ -94,10 +94,10 @@ Extensive refactoring and optimization work has produced remarkable results:
 
 ![TGv2](https://ums.myds.me/images/TGv2.png)
 
-**Core Optimizations:**
+**Core Optimisations:**
 - Streamlined autoloader with single filesystem operation
 - Regex-based custom route matching with static caching (5-10x faster route resolution)
-- Optimized `get_segments()` function (20-30% faster URL parsing)
+- Optimised `get_segments()` function (20-30% faster URL parsing)
 - Eliminated double controller instantiation (30-50% faster controller loading)
 - Explicit lazy-loading for framework classes (40-60% faster property access)
 - Priority-based view path resolution (20-30% faster view rendering)
@@ -109,13 +109,13 @@ Extensive refactoring and optimization work has produced remarkable results:
 - 30-50% improvement under high-traffic scenarios
 
 > [!NOTE]
-> These optimizations were achieved while maintaining backward compatibility and the familiar Trongate development experience.
+> These optimisations were achieved while maintaining backward compatibility and the familiar Trongate development experience.
 
 ### 💬 What the Community is Saying
 
 > *"The current Trongate is wonderful and easy to use. The flexible becomes even more flexible. And not only is it not at the expense of a slower system, but it speeds things up. Superb!"* — r-evo
 
-> *"Being able to customize/translate validation messages is going to be a huge plus, especially for non-English web applications."* — Balazs
+> *"Being able to customise/translate validation messages is going to be a huge plus, especially for non-English web applications."* — Balazs
 
 > *"Other frameworks are becoming increasingly complex but Trongate is simplifying, speeding up and becoming more efficient than ever before."* — Balazs
 
@@ -127,7 +127,7 @@ Once Trongate v2 documentation is released, we plan to:
 - Maintain v1 documentation for legacy projects  
 - Provide clear versioning and migration guides
 - Continue supporting both versions during the transition period
-- Leverage the new modular architecture for better documentation organization
+- Leverage the new modular architecture for better documentation organisation
 
 > [!TIP]
 > Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/trongate-v2-beta) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@trongate_framework).
