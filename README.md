@@ -46,27 +46,86 @@ The Trongate framework's official documentation is maintained in HTML format. Th
 
 ## 🚀 What's Coming: Trongate v2
 
-**Exciting news for the Trongate community!**
+**Trongate v2 is going to be a winner!**
 
-Trongate v2 is on the horizon with significant improvements and a completely revamped documentation experience.
+Trongate v2 represents a revolutionary leap forward with groundbreaking architectural changes and a completely revamped documentation experience. Confirmed launch date: **Tuesday, 6th January 2026**.
 
-### Key Information
+### 🎯 Major Highlights
 
-- **Scheduled Launch Date**: 6th January 2026 *(subject to confirmation)*
-- **Documentation**: Brand new documentation structure and content (details TBA)
-- **Beta Access**: Available now at [github.com/trongate/trongate-v2-beta](https://github.com/trongate/trongate-v2-beta)
+#### **Dramatic Engine Size Reduction**
+- **v1 Engine**: ~5,530 lines of code
+- **v2 Engine**: ~2,320 lines of code
+- **Result**: 58% reduction in core framework size!
 
-### What This Means for This Repository
+#### **Module-First Architecture**
+Almost everything becomes a module:
+- Templates → Module
+- Database (DB) → Module  
+- Validation → Module
+- Image → Module
+- File → Module
+
+This radical simplification means:
+- Faster framework performance
+- Easier to understand and customize
+- AI engines can easily comprehend the entire framework
+- Community can build specialized modules (e.g., `validation_japan` for Japanese form validation)
+
+#### **Built-in Internationalization**
+Creating multilingual sites with localized validation messages becomes a **3-minute task**. Perfect for global applications!
+
+#### **Trongate MX Included**
+The powerful HTMX-style JavaScript library will be included by default (but optional to use).
+
+#### **AI-Optimized Design**
+With the tiny engine size, fully automated AI-driven web development becomes feasible. The framework is being designed for the AI era.
+
+#### **Hyper-Optimized Performance**
+Extensive refactoring and optimization work has produced remarkable results:
+
+**Benchmark Results** (Apache Bench: 1000 requests, 100 concurrent):
+- Test #1: 1,417.03 req/sec
+- Test #2: 1,908.98 req/sec  
+- Test #3: 2,192.38 req/sec
+- **Average: ~77% performance improvement over v1** 🚀
+
+**Core Optimizations:**
+- Streamlined autoloader with single filesystem operation
+- Regex-based custom route matching with static caching (5-10x faster route resolution)
+- Optimized `get_segments()` function (20-30% faster URL parsing)
+- Eliminated double controller instantiation (30-50% faster controller loading)
+- Explicit lazy-loading for framework classes (40-60% faster property access)
+- Priority-based view path resolution (20-30% faster view rendering)
+
+**Overall Impact:**
+- 25-40% reduction in framework overhead
+- 15-25% improvement for simple pages
+- 25-40% improvement for complex pages
+- 30-50% improvement under high-traffic scenarios
+
+> [!NOTE]
+> These optimizations were achieved while maintaining backward compatibility and the familiar Trongate development experience.
+
+### 💬 What the Community is Saying
+
+> *"The current Trongate is wonderful and easy to use. The flexible becomes even more flexible. And not only is it not at the expense of a slower system, but it speeds things up. Superb!"* — r-evo
+
+> *"Being able to customize/translate validation messages is going to be a huge plus, especially for non-English web applications."* — Balazs
+
+> *"Other frameworks are becoming increasingly complex but Trongate is simplifying, speeding up and becoming more efficient than ever before."* — Balazs
+
+### 📚 What This Means for This Repository
 
 Once Trongate v2 documentation is released, we plan to:
 
 - Create a parallel conversion for v2 documentation
-- Maintain v1 documentation for legacy projects
+- Maintain v1 documentation for legacy projects  
 - Provide clear versioning and migration guides
 - Continue supporting both versions during the transition period
+- Leverage the new modular architecture for better documentation organization
 
 > [!TIP]
-> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/trongate-v2-beta) to explore what's coming!
+> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/trongate-v2-beta) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@trongate_framework).
 
 ---
 
