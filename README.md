@@ -89,6 +89,11 @@ Extensive refactoring and optimization work has produced remarkable results:
 - Test #3: 2,192.38 req/sec
 - **Average: ~77% performance improvement over v1** 🚀
 
+> [!NOTE]
+> These benchmarks were conducted on a **Windows 11** system with **PHP 8.4** and **Apache 2.4**. Results may vary based on your specific environment.
+
+![TGv2](https://ums.myds.me/images/TGv2.png)
+
 **Core Optimizations:**
 - Streamlined autoloader with single filesystem operation
 - Regex-based custom route matching with static caching (5-10x faster route resolution)
