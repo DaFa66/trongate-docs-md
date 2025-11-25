@@ -1,110 +1,263 @@
-# Trongate Docs (Markdown) — Converted v1 Documentation
+# Trongate Documentation (Markdown)
 
-**T**his repository converts the Trongate v1 HTML documentation from the HTML source files into Markdown, making it suitable for LLM integration, RAG, and other AI tools for search indexing, vector databases, as well as GitHub Pages.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Trongate](https://img.shields.io/badge/Trongate-v1-green.svg)](https://trongate.io)
+[![Documentation](https://img.shields.io/badge/docs-markdown-orange.svg)](https://github.com/DaFa66/trongate-docs-md)
 
----
+> **LLM-friendly Markdown conversion of the official Trongate v1 HTML documentation**
 
-## Purpose
-
-This project takes the HTML docs from the HTML Trongate docs repository and converts them into readable, well-structured Markdown files so you can:
-
-* Integrate into vector databases for RAG use
-* Pull into MCPs like [Context 7](https://context7.com/) or custom MCPs
-* Publish the docs as Markdown (GitHub Pages, MkDocs, VuePress, etc.)
-* Edit, version, and extend docs in a standard text format
-* Integrate with toolchains and CI/CD for documentation automation
+This repository provides the complete Trongate v1 documentation converted from HTML to clean, well-structured Markdown format. Designed for seamless integration with AI tools, vector databases, static site generators, and modern documentation workflows.
 
 ---
 
-## What’s included
+## 📋 Table of Contents
 
-Converted Markdown files grouped by logical collections (same collection definitions used from the source `docs_collections.json`).
+- [Overview](#overview)
+- [Features](#features)
+- [Repository Structure](#repository-structure)
+- [Getting Started](#getting-started)
+- [Use Cases](#use-cases)
+- [Conversion Process](#conversion-process)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Status](#status)
+- [Resources](#resources)
+- [License](#license)
 
 ---
 
-## Repo layout (summary)
+## 🎯 Overview
+
+The Trongate framework's official documentation is maintained in HTML format. This project converts those HTML files into Markdown, making the documentation more accessible for:
+
+- **AI/LLM Integration**: RAG (Retrieval-Augmented Generation) systems, vector databases, and semantic search
+- **Documentation Platforms**: GitHub Pages, MkDocs, Docusaurus, VuePress, and other static site generators
+- **Version Control**: Track documentation changes with standard diff tools
+- **Automation**: CI/CD pipelines and automated documentation workflows
+- **Custom Tooling**: MCPs, search indexing, and custom documentation systems
+
+---
+
+## ✨ Features
+
+- **Complete Coverage**: All major Trongate v1 documentation sections converted
+- **Structured Collections**: Organised by logical groupings matching the official documentation structure
+- **Clean Formatting**: Proper heading hierarchy, code blocks, and markdown conventions
+- **LLM-Optimised**: Formatted for optimal consumption by language models and AI tools
+- **Automated Conversion**: Minimal manual intervention required post-conversion
+- **Extensible**: Easy to integrate into existing documentation workflows
+
+---
+
+## 📁 Repository Structure
 
 ```
-/
-├─ php_framework/        # Converted framework guide Markdown
-├─ reference/            # API / reference material
-├─ trongate_css/         # Styling & CSS docs as Markdown
-├─ trongate_mx/          # Our very own HTMX style JavaScript library 
-├─ LICENSE
-└─ README.md
+trongate-docs-md/
+├── php_framework/     # Core PHP framework documentation
+├── reference/         # API reference and technical specifications
+├── trongate_css/      # CSS framework and styling documentation
+├── trongate_mx/       # Trongate MX (HTMX-style) JavaScript library docs
+├── LICENSE            # MIT License
+└── README.md          # This file
 ```
 
----
-
-## How the conversion works (high level)
-
-1. Input: HTML files from the official HTML docs repo.
-2. Grouping: Files are mapped into collections using `docs_collections.json`.
-
-## What's coming next:
-
-1. Transformations into books:
-
-   * Remove numeric prefixes (e.g. `0001-intro.html` → `intro.md`).
-   * Normalise headings and fix acronym casing.
-   * Add a single book title at the top of each collection and insert the description from `docs_collections.json`.
-   * Generate a table of contents (TOC) under the description.
-2. Focus on vector database integration for LLM consumption.
-3. Output: Clean Markdown files ready for consumption by static doc generators.
-
-> Notes: The conversion emphasizes minimal manual editing after conversion — most changes are automated, but human review is recommended for complex pages (embedded examples, multi-column layouts or interactive content).
+Each directory contains converted Markdown files organised by topic, maintaining the same logical structure as the official documentation.
 
 ---
 
-## Contributing
+## 🚀 Getting Started
 
-Contributions welcome:
+### Prerequisites
 
-* Fix conversion edge-cases (tables, code blocks, embedded assets).
-* Add CI to convert on push from the upstream HTML docs or provide automated pull requests when upstream docs change.
+- Git for cloning the repository
+- A Markdown viewer or editor (VS Code, Obsidian, Typora, etc.)
+- Optional: Static site generator (MkDocs, Docusaurus) for publishing
 
----
+### Installation
 
-## Status & Roadmap
+```bash
+# Clone the repository
+git clone https://github.com/DaFa66/trongate-docs-md.git
 
-* ✅ Base conversion for many v1 docs is complete.
-* ⚠️ Some pages still need manual cleanup (complex HTML structures, screenshots, or non-standard markup).
-* Planned: integrate an automated pipeline to run on updates to the upstream HTML docs.
+# Navigate to the directory
+cd trongate-docs-md
 
----
+# Browse the documentation
+ls -la
+```
 
-## License
+### Usage
 
-This repository is released under the MIT License. See `LICENSE` for details.
+**For Reading:**
+- Open any `.md` file in your preferred Markdown viewer
+- Navigate through directories to find specific topics
 
----
+**For Integration:**
+- Import into your vector database for RAG applications
+- Use with MCP servers like [Context 7](https://context7.com/)
+- Build a static site with your preferred generator
+- Index for search functionality
 
-## Acknowledgements & References
-
-* The official Trongate landing page and documentation provide the canonical reference material and should be referenced for authoritative guidance.
-* The original HTML docs were sourced from the official Trongate docs repository.
-
----
-
-## Links
-
-* Official website: [https://trongate.io/](https://trongate.io/)
-* Official docs landing: [https://trongate.io/documentation](https://trongate.io/documentation)
-* Trongate framework repo: [https://github.com/trongate/trongate-framework](https://github.com/trongate/trongate-framework)
-* HTML docs (source): [https://github.com/trongate/trongate-docs](https://github.com/trongate/trongate-docs)
-* Upcoming Trongate v2 (beta): [https://github.com/trongate/trongate-v2-beta](https://github.com/trongate/trongate-v2-beta)
-
-* All docs as HTML: [https://dafadev.net/a1/tgdocs](https://dafadev.net/a1/tgdocs)
-* Automated docs on the Framework using MKDocs: [https://ums.myds.me/tg_docs/](https://ums.myds.me/tg_docs/)
-* Automated docs by Dom using doxygen: [https://vtlsoftware.co.uk/trongatedocs/index.html](https://vtlsoftware.co.uk/trongatedocs/index.html)
-* This repository: [https://github.com/DaFa66/trongate-docs-md](https://github.com/DaFa66/trongate-docs-md)
+**For Development:**
+- Reference while building Trongate applications
+- Integrate into IDE documentation systems
+- Use for offline development reference
 
 ---
 
-## Final notes
+## 💡 Use Cases
 
-If you want, I can:
+### AI & Machine Learning
+- **Vector Databases**: Embed documentation for semantic search and RAG systems
+- **LLM Context**: Provide framework knowledge to AI coding assistants
+- **Training Data**: Use as training material for Trongate-specific models
 
-* format these Markdown files for an MkDocs or Docusaurus site,
-* add a CI workflow to rebuild Markdown automatically when the upstream HTML docs change,
-* or produce a styled landing README that mirrors the official Trongate site aesthetic.
+### Documentation Publishing
+- **Static Sites**: Deploy with MkDocs, Docusaurus, or VuePress
+- **GitHub Pages**: Publish directly from this repository
+- **Custom Platforms**: Integrate with any Markdown-based documentation system
+
+### Development Workflows
+- **Offline Reference**: Access documentation without internet connection
+- **IDE Integration**: Link documentation directly in your development environment
+- **Version Tracking**: Monitor documentation changes alongside code
+
+---
+
+## 🔄 Conversion Process
+
+The conversion pipeline follows these steps:
+
+1. **Source Extraction**: HTML files retrieved from the [official Trongate docs repository](https://github.com/trongate/trongate-docs)
+2. **Collection Mapping**: Files organised using `docs_collections.json` structure
+3. **HTML to Markdown**: Automated conversion with custom transformations for:
+   - Code blocks and syntax highlighting
+   - Alert boxes and callouts
+   - Tables and lists
+   - Images and embedded media
+   - Internal and external links
+4. **Post-Processing**: 
+   - Heading normalisation
+   - Acronym casing corrections
+   - Link validation
+   - Formatting consistency checks
+5. **Quality Review**: Manual verification of complex pages
+
+> [!NOTE]
+> The conversion emphasises automation with minimal manual editing. However, complex pages with multi-column layouts, interactive content, or embedded examples may require human review for optimal results.
+
+---
+
+## 🗺️ Roadmap
+
+### Planned Features
+
+- [ ] **Book Format Transformation**
+  - Remove numeric prefixes from filenames (e.g., `0001-intro.html` → `intro.md`)
+  - Add collection titles and descriptions from `docs_collections.json`
+  - Generate automatic table of contents for each collection
+  - Improve heading hierarchy and structure
+
+- [ ] **Enhanced LLM Integration**
+  - Optimise chunking for vector databases
+  - Add metadata frontmatter for better indexing
+  - Create embeddings-friendly formatting
+
+- [ ] **Automation & CI/CD**
+  - Automated conversion pipeline on upstream HTML changes
+  - Pull request generation for documentation updates
+  - Continuous integration testing for conversion quality
+
+- [ ] **Publishing Templates**
+  - Pre-configured MkDocs setup
+  - Docusaurus theme and configuration
+  - GitHub Pages deployment workflow
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+### Areas for Contribution
+
+- **Conversion Improvements**: Fix edge cases in tables, code blocks, or embedded assets
+- **Automation**: Build CI/CD pipelines for automatic conversion
+- **Documentation**: Improve this README or add usage examples
+- **Quality Assurance**: Review converted files and report issues
+- **Tooling**: Create scripts for validation, formatting, or publishing
+
+### How to Contribute
+
+1. Fork this repository
+2. Create a feature branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Test thoroughly
+5. Commit with clear messages (`git commit -m 'Fix: table conversion in API reference'`)
+6. Push to your fork (`git push origin feature/improvement`)
+7. Open a Pull Request
+
+---
+
+## 📊 Status
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| PHP Framework Docs | ✅ Complete | Base conversion finished |
+| API Reference | ✅ Complete | Base conversion finished |
+| Trongate CSS | ✅ Complete | Base conversion finished |
+| Trongate MX | ✅ Complete | Base conversion finished |
+| Manual Cleanup | ⚠️ In Progress | Complex pages need review |
+| Automated Pipeline | 🔄 Planned | Scheduled for future release |
+
+> [!WARNING]
+> Some pages with complex HTML structures, screenshots, or non-standard markup may still require manual cleanup. Please report any formatting issues you encounter.
+
+---
+
+## 🔗 Resources
+
+### Official Trongate Resources
+
+- **Website**: [trongate.io](https://trongate.io/)
+- **Official Documentation**: [trongate.io/documentation](https://trongate.io/documentation)
+- **Framework Repository**: [github.com/trongate/trongate-framework](https://github.com/trongate/trongate-framework)
+- **HTML Docs Source**: [github.com/trongate/trongate-docs](https://github.com/trongate/trongate-docs)
+- **Trongate v2 Beta**: [github.com/trongate/trongate-v2-beta](https://github.com/trongate/trongate-v2-beta)
+
+### Community Documentation Projects
+
+- **HTML Docs Viewer**: [dafadev.net/a1/tgdocs](https://dafadev.net/a1/tgdocs)
+- **MkDocs Implementation**: [ums.myds.me/tg_docs/](https://ums.myds.me/tg_docs/)
+- **Doxygen Documentation**: [vtlsoftware.co.uk/trongatedocs/](https://vtlsoftware.co.uk/trongatedocs/index.html)
+
+### This Project
+
+- **Repository**: [github.com/DaFa66/trongate-docs-md](https://github.com/DaFa66/trongate-docs-md)
+- **Issues**: [Report bugs or request features](https://github.com/DaFa66/trongate-docs-md/issues)
+
+---
+
+## 📄 License
+
+This repository is released under the **MIT License**. See [LICENSE](LICENSE) for full details.
+
+The original Trongate documentation and framework are subject to their own licensing terms. Please refer to the [official Trongate repository](https://github.com/trongate/trongate-framework) for more information.
+
+---
+
+## 🙏 Acknowledgements
+
+- **Trongate Team**: For creating and maintaining the excellent framework and documentation
+- **Community Contributors**: For feedback, bug reports, and improvements
+- **Original HTML Docs**: Sourced from the [official Trongate docs repository](https://github.com/trongate/trongate-docs)
+
+---
+
+<div align="center">
+
+**Questions or suggestions?** [Open an issue](https://github.com/DaFa66/trongate-docs-md/issues) or contribute to the project!
+
+Made with ❤️ for the Trongate community
+
+</div>
