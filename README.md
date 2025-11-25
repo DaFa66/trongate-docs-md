@@ -8,11 +8,15 @@
 
 This repository provides the complete Trongate v1 documentation converted from HTML to clean, well-structured Markdown format. Designed for seamless integration with AI tools, vector databases, static site generators, and modern documentation workflows.
 
+> [!IMPORTANT]
+> **Trongate v2 is coming!** Scheduled launch: **6th January 2026** (subject to confirmation). The new version will feature revamped documentation. [Explore the beta →](https://github.com/trongate/trongate-v2-beta)
+
 ---
 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [What's Coming: Trongate v2](#whats-coming-trongate-v2)
 - [Features](#features)
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
@@ -35,6 +39,34 @@ The Trongate framework's official documentation is maintained in HTML format. Th
 - **Version Control**: Track documentation changes with standard diff tools
 - **Automation**: CI/CD pipelines and automated documentation workflows
 - **Custom Tooling**: MCPs, search indexing, and custom documentation systems
+
+**Note**: This repository focuses on Trongate v1 documentation. Trongate v2 with revamped documentation is scheduled for release in early 2026.
+
+---
+
+## 🚀 What's Coming: Trongate v2
+
+**Exciting news for the Trongate community!**
+
+Trongate v2 is on the horizon with significant improvements and a completely revamped documentation experience.
+
+### Key Information
+
+- **Scheduled Launch Date**: 6th January 2026 *(subject to confirmation)*
+- **Documentation**: Brand new documentation structure and content (details TBA)
+- **Beta Access**: Available now at [github.com/trongate/trongate-v2-beta](https://github.com/trongate/trongate-v2-beta)
+
+### What This Means for This Repository
+
+Once Trongate v2 documentation is released, we plan to:
+
+- Create a parallel conversion for v2 documentation
+- Maintain v1 documentation for legacy projects
+- Provide clear versioning and migration guides
+- Continue supporting both versions during the transition period
+
+> [!TIP]
+> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/trongate-v2-beta) to explore what's coming!
 
 ---
 
