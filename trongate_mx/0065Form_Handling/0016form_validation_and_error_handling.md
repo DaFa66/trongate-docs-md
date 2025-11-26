@@ -111,8 +111,6 @@ Here's an example of a basic HTML template ready to work with Trongate MX:
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > When using Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) for form validation, ensure your forms are closed with:
 > 
 > ```vf

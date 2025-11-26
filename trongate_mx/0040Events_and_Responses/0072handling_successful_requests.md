@@ -4,8 +4,6 @@
 The `mx-on-success` attribute lets you trigger elements after an HTTP request has been made and a response code within the success range has been received.  This makes it possible for one action (such as the submission of a form) to result in several different parts of a page being updated.
 
 > [!WARNING]
-> **Warning!**
->
 > The `mx-on-success` attribute (which happens to be the focus of this page) is designed for reinitialising elements, **not** for executing custom JavaScript!
 > 
 > 

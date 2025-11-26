@@ -9,8 +9,6 @@ Sometimes, you may wish to redirect users to a different URL when an API endpoin
 Simply add `mx-redirect-on-error` to any element that triggers an HTTP request (such as forms or buttons) and set its value to "true". The redirect URL should be returned as plain text in the response body from your server.
 
 > [!WARNING]
-> **Warning!**
->
 > The redirect happens immediately upon receiving an error response from the target API endpoint. Because of this, `mx-redirect-on-error` should **not** be combined with animation attributes or other error handlers since they won't have time to execute.
 
 
@@ -122,8 +120,6 @@ echo form_button('view_product_btn', 'View Product', $btn_attr);
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > **A few friendly reminders:**
 > 
 > 

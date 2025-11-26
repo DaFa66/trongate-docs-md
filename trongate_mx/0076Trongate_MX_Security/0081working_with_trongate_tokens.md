@@ -191,8 +191,6 @@ $token = $this->trongate_tokens->_attempt_get_valid_token();
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > The _attempt_get_valid_token() method, within the Trongate Tokens module, attempts to return a Trongate Token for a signed in user by checking:
 > 
 > 

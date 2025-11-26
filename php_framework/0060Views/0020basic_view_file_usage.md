@@ -51,8 +51,6 @@ In the provided example, the `view()`
     If found, the content of this file is rendered and displayed in the browser.
 
 > [!WARNING]
-> **Warning!**
->
 > The view() method of Trongate accepts the name of the view file as an argument. 
 >         It is essential to **exclude** the file extension, such as '.php', from this argument.
 

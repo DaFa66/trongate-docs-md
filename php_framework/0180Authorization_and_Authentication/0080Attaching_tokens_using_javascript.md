@@ -88,8 +88,6 @@ $token = $_SERVER['HTTP_TRONGATETOKEN'] ?? false;
 In the code sample above, a `$token` variable is assigned the value of a 'Trongate token' passed via an HTTP request header. If no such header is found, the `$token` variable will be assigned a boolean value of `false`.
 
 > [!WARNING]
-> **Warning!**
->
 > Accessing token data from the header via the `$_SERVER` superglobal does not confirm whether the token passed via the header is valid.
 > 
 > 

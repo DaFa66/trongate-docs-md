@@ -163,8 +163,6 @@ When validating tokens, keep the following security considerations in mind:
 - **Granular Validation:** For sensitive operations, combine token validation with additional checks, such as verifying the user ID or role.
 
 > [!WARNING]
-> **Warning!**
->
 > The Trongate Tokens module employs a hierarchical mechanism to fetch valid tokens during authentication and authorization processes. This mechanism involves sequentially checking multiple storage locations for tokens, as outlined below:
 > 
 > 

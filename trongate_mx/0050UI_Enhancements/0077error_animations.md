@@ -55,8 +55,6 @@ public function submit_simulate_error() {
 Clicking the submit button sends a POST request to `endpoint/submit_simulate_error`. If the request fails (HTTP status outside 200-299), the error animation is displayed over the form.
 
 > [!WARNING]
-> **Warning!**
->
 > **Important:** The `mx-animate-error` attribute must be added to the element initiating the HTTP request. Adding it to unrelated elements will not trigger the animation.
 
 
@@ -128,8 +126,6 @@ If you'd rather work directly with HTML, here's the code:
 ```
 
 > [!CAUTION]
-> **Danger!**
->
 > Building web applications using pure HTML forms introduces potential security risks.  For more details, refer to our documentation pertaining to [CSRF Protection](documentation/display/trongate_mx/trongate-mx-security/csrf-protection)
 > 
 > 

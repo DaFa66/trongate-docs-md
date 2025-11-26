@@ -9,8 +9,6 @@ Here's a little checklist that you can run through before launching your next bi
 When you launch your web app, make sure your main config file (`config.php`) does *not* have 'ENV' set to 'dev'. The recommendation is to change the ENV setting to 'live' or 'production' or *any* word that is not 'DEV' or 'dev'.
 
 > [!CAUTION]
-> **Danger!**
->
 > Never launch a Trongate web app with the environment set to 'dev'.
 
 
@@ -20,8 +18,6 @@ When you launch your web app, make sure your main config file (`config.php`) doe
 Change the password to your admin panels to something that is difficult or impossible to guess.
 
 > [!CAUTION]
-> **Danger!**
->
 > The admin panels that are produced by the Trongate Desktop App all have a default username of 'admin' and a default password of 'admin'. So, it's really important to make sure you don't have 'admin' as your password.
 
 
@@ -61,8 +57,6 @@ And finally... when you're testing a live website for the first time, it's a ver
 Most of the people who visit your website will probably be using mobile devices. So, be sure to test your site on a mobile device such as a smartphone.
 
 > [!CAUTION]
-> **Danger!**
->
 > If you use GIT, be extra careful to avoid uploading a commit that contains your live website settings. Every day, websites get hacked because of developers accidentally uploading passwords and other credentials to GitHub.
 
 

@@ -110,8 +110,6 @@ class Welcome extends Trongate {
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > Always ensure your template name is unique within the Templates class to avoid conflicts with existing templates like 'admin' or 'public'.
 
 

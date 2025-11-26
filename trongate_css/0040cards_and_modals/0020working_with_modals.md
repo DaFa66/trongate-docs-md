@@ -313,8 +313,6 @@ Here's the source code:
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > To make the above example work, you'll have to [load Trongate MX](documentation/display/trongate_mx/introduction/trongate-mx-quick-start) onto your webpage.
 
 

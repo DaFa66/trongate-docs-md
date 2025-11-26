@@ -115,8 +115,6 @@ If you'd rather **not** using Trongate's form helper functions, here's an altern
 ```
 
 > [!CAUTION]
-> **Danger!**
->
 > Building applications with pure HTML forms can create potential security risks. See our [CSRF Protection](CSRF Protection) documentation for details.
 
 

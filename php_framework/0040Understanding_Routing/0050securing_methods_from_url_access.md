@@ -78,8 +78,6 @@ class Products extends Trongate {
 ## Security Implications
 
 > [!WARNING]
-> **Warning!**
->
 > **Important:** The underscore prefix only prevents URL access. These methods can still be called from within your application code using `$this->_method_name()`.
 
 

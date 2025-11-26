@@ -164,8 +164,6 @@ $token = $this->trongate_tokens->_generate_token($data);
 In this case, the token will automatically inherit the default lifespan of 86,400 seconds (1 day) unless otherwise configured.
 
 > [!CAUTION]
-> **Danger!**
->
 > **Security Note:** In development mode ('dev'), Trongate will automatically generate and allocate a token for any user attempting to access the admin panel if no token is presented. This behavior is managed by the _make_sure_allowed() method in the 'Trongate Administrators' module.
 > 
 > 

@@ -85,8 +85,6 @@ Basic custom routing offers an easy way to effectively declare:
 Basic custom routing *only* works when the current URL can be **precisely** matched to the defined URL pattern.  It should never be used to *generally* swap 'x' for 'y' across a range of URLs.
 
 > [!CAUTION]
-> **Danger!**
->
 > Suppose you'd like to have the following rule enforced:
 > 
 > 

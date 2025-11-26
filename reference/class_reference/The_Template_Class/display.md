@@ -101,8 +101,6 @@ Template::display(['view_file' => 'index']);
 If the specified view file does not exist, the script will terminate with an error message showing the attempted file path. This behavior is handled by the attempt_include() method.
 
 > [!WARNING]
-> **Warning!**
->
 > ### Important Notes
 > 
 > 

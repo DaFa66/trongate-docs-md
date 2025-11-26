@@ -44,8 +44,6 @@ For an HTML-only approach, here's the corresponding code:
 Clicking the submit button sends a POST request to `endpoint/submit`. If the request succeeds (HTTP status 200-299), the checkmark animation is displayed over the form.
 
 > [!WARNING]
-> **Warning!**
->
 > **Important:** The `mx-animate-success` attribute must be added to the element initiating the HTTP request. Adding it to unrelated elements will not trigger the animation.
 
 

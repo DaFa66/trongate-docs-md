@@ -31,8 +31,6 @@ function create() {
 
   
 > [!WARNING]
-> **Warning!**
->
 > The code sample above would be a method contained within a 'forum_threads' controller file. The URL for invoking the method above would be the BASE_URL followed by forums-forum_threads/create.
 
 
@@ -83,8 +81,6 @@ class Shopping_basket extends Trongate {
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > The parent::construct(); declaration - within the constructor - is required if you intend on making database queries from within your child module.
 
 

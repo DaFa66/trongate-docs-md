@@ -29,8 +29,6 @@ Insert multiple records into the specified table in a batch using a single SQL s
 | PDOException | If an error occurs during the database operation. |
 
 > [!WARNING]
-> **Warning!**
->
 > > [!NOTE]
 > > ** Warning!
 > 

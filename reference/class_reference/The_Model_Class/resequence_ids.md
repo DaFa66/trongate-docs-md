@@ -30,8 +30,6 @@ This method resequences the IDs in a given table, assigning new sequential IDs s
 ## Note
 
 > [!WARNING]
-> **Warning!**
->
 > > [!NOTE]
 > > ** Warning!
 > 

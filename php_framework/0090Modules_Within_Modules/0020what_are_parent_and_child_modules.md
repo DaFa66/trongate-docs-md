@@ -1,8 +1,6 @@
 # What Are Parent And Child Modules?
 
 > [!WARNING]
-> **Warning!**
->
 > Previously, child modules required additional code in order to work. Specifically, they required a constructor and destructor. You may have even seen tutorials going over this. However, the additional code for child modules is no longer a requirement. Ordinary modules can work inside ordinary modules.
 
 

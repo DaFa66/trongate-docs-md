@@ -96,8 +96,6 @@ if ($update_success) {
 }
 ```
 > [!WARNING]
-> **Warning!**
->
 > > [!NOTE]
 > > ** Warning!
 > 

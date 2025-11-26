@@ -21,8 +21,6 @@ Within the internals of Trongate CSS, each of the above text align classes are w
 The `!important` declaration in CSS is used to give a style rule higher priority, overriding other conflicting rules for the same property on an element.
 
 > [!WARNING]
-> **Warning!**
->
 > Normally, when working with CSS, using `!important` should generally be avoided as it can make debugging and maintaining CSS more difficult.
 
 

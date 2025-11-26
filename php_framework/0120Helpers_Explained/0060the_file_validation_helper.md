@@ -25,8 +25,6 @@ The code above could be used to produce a form that looks like this:
 
 
 > [!WARNING]
-> **Warning!**
->
 > The example shown in the screenshot contains some CSS and a little additional HTML to improve the appearance of the uploader form.
 
 
@@ -47,8 +45,6 @@ As can see, an argument has been passed into the method. The argument represents
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > The assumption being made with this example is that an `$update_id` variable has been passed into the view file. We're also assuming that the `BASE_URL` value is set to:
 > 
 > ```
@@ -83,8 +79,6 @@ The form_file_select method displays a form file uploader field. As you can see,
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > The form_file_select method can accept the following three arguments:
 >   
 > - name

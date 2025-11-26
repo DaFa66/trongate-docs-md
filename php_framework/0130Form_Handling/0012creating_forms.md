@@ -74,8 +74,6 @@ Having this code inside a view file will result in the following HTML being rend
 
 
 > [!WARNING]
-> **Warning!**
->
 > Don't forget to use opening and closing PHP tags when adding PHP to a view file!  For example:
 > 
 > ```vf

@@ -39,8 +39,6 @@ And here's the equivalent using pure HTML:
 ```
 
 > [!CAUTION]
-> **Danger!**
->
 > The example above is for illustration purposes only. **Never** hardcode security tokens or API keys directly into HTML source code. These credentials would be visible in the page source and could pose significant security risks.
 
 
@@ -177,8 +175,6 @@ echo form_button('track_btn', 'Tracked Request', $btn_attr);
 ## Security Considerations
 
 > [!WARNING]
-> **Warning!**
->
 > **Critical Security Guidelines:**
 > 
 > 

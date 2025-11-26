@@ -34,8 +34,6 @@ This function accepts up to three parameters:
 This function supports both internal and external links by providing a full URL as an argument.
 
 > [!CAUTION]
-> **Danger!**
->
 > **Security Note:** The anchor() function does **not** escape the link text. For user-generated or database content, consider combining with the out() function to prevent XSS attacks:
 > 
 > ```vf

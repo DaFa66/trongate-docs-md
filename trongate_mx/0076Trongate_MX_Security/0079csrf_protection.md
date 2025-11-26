@@ -150,8 +150,6 @@ While Trongate MX handles CSRF protection automatically, following these best pr
 - Keep your Trongate framework updated to get the latest security improvements.
 
 > [!WARNING]
-> **Warning!**
->
 > At the time of writing, Trongate MX is able to apply automatic CSRF protection to API endpoints where:
 > 
 > 

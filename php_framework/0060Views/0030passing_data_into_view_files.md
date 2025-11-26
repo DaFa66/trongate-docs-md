@@ -78,8 +78,6 @@ Output:
         
 *Screenshot showing greeting message with a name.*
 > [!CAUTION]
-> **Danger!**
->
 > When rendering data from untrusted sources like user inputs, always sanitize outputs to prevent security vulnerabilities. Trongate provides the json() function for safe output encoding, protecting against XSS attacks by properly formatting content for HTML, XML, JSON, JavaScript, and HTML attributes.
 
 

@@ -12,8 +12,6 @@ All form validation procedures these following three steps:
 - The user is then presented with either a 'success' message or some validation errors, based on the results of the validation tests.
 
 > [!WARNING]
-> **Warning!**
->
 > A complete walk-through of how form validation works is available in the 'Form Handling' chapter of these docs.
 
 

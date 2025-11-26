@@ -9,8 +9,6 @@ In certain situations, you may wish to redirect users to a different URL after r
 To use `mx-redirect-on-success`, add it to any element that triggers an HTTP request (such as forms or buttons) and set its value to "true". The redirect URL should be returned as plain text in the response body from the server.
 
 > [!WARNING]
-> **Warning!**
->
 > The redirect happens immediately upon receiving a successful response from the target API endpoint. Because of this, `mx-redirect-on-success` should **not** be combined with animation attributes or other success handlers since they won't have time to execute.
 
 
@@ -109,8 +107,6 @@ echo form_button('payment_btn', 'Complete Payment', $btn_attr);
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > **The following considerations should be taken into account:**
 > 
 > 

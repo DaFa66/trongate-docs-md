@@ -7,8 +7,6 @@ Typically, the 'controllers' directory within a given module will contain one PH
 This section explores scenarios where a module's 'controllers' directory contains more than one PHP class, detailing the considerations and best practices for organizing multiple classes within a single 'controllers' directory.
 
 > [!WARNING]
-> **Warning!**
->
 > This page addresses a hypothetical edge case where it might be desirable to have multiple controller files within a single 'controllers' sub-directory.
 > 
 > 

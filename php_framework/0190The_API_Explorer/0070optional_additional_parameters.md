@@ -23,8 +23,6 @@ When you are creating your API settings file, there are a range of optional para
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > If you have a close look at the url_segments, above, you'll notice that the final segment is for 'id' and it's inside curly brackets. When you see *this* type of pattern in the URL segments, it means that we are expecting a value (in this case, 'id') to be passed in via the URL.
 
 
@@ -55,8 +53,6 @@ When you are creating your API settings file, there are a range of optional para
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > The underscore at the start of _prep_password() means that the method is 'protected'. In other words, it cannot be invoked by going to a particular URL.
 
 
@@ -87,8 +83,6 @@ When you are creating your API settings file, there are a range of optional para
 ```
 
 > [!WARNING]
-> **Warning!**
->
 > Again, you can see that the after hook's method name begins with an underscore. This means that the method is protected.
 
 

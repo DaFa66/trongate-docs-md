@@ -6,8 +6,6 @@ The `mx-on-error` attribute in Trongate MX lets you specify which elements shoul
   gracefully and keeping your users informed when things don't go quite as planned.
 
 > [!WARNING]
-> **Warning!**
->
 > The `mx-on-error` attribute (which happens to be the focus of this page) is designed for triggering elements, **not** for executing custom JavaScript!
 > 
 > 

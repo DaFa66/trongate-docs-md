@@ -10,8 +10,6 @@ Here's a video demonstration:
 https://www.youtube.com/watch?v=I8wM4AdA0k4
 
 > [!CAUTION]
-> **Danger!**
->
 > Never use the Module Import Wizard on a live website. For improved security it's best to carry out module imports on your 'localhost' environment and then upload once you're happy with your new module.
 
 

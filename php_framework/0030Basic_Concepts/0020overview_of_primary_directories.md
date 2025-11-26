@@ -17,8 +17,6 @@ The **engine** directory contains the core functionality of the Trongate framewo
 The **config** directory stores essential configuration settings for your application, such as the base URL, environment settings, and default controllers. These settings are globally accessible throughout the application.
 
 > [!CAUTION]
-> **Danger!**
->
 > Never deploy a Trongate web application with the "ENV" setting configured to "dev".
 
 
@@ -43,8 +41,6 @@ The **templates** directory is used for storing HTML templates. Unlike other fra
 The **public** directory serves as the primary entry point for a Trongate web application, containing the `index.php` file. It also houses assets such as CSS, JavaScript, and images that are directly served to clients.  Entire HTML themes can also be stored within the public directory.
 
 > [!WARNING]
-> **Warning!**
->
 > The **public** and **engine** directories contain essential license files. These files include specific framework version details and are critical for managing updates via the Trongate Desktop App. Modifying or removing these files may disrupt the update process and should be avoided to maintain system integrity.
 
 
