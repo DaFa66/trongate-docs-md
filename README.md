@@ -1,15 +1,16 @@
 # Trongate Documentation (Markdown)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Trongate](https://img.shields.io/badge/Trongate-v1-green.svg)](https://trongate.io)
+[![Trongate](https://img.shields.io/badge/Trongate-grey.svg)](https://trongate.io)
+[![Trongate](https://img.shields.io/badge/Framework-v1-purple.svg)](https://github.com/trongate/trongate-framework)
+[![Trongate](https://img.shields.io/badge/html-v1-green.svg)](https://github.com/trongate/trongate-docs)
 [![Documentation](https://img.shields.io/badge/docs-markdown-orange.svg)](https://github.com/DaFa66/trongate-docs-md)
 
 > **LLM-friendly Markdown conversion of the official Trongate v1 HTML documentation**
 
 This repository provides the complete Trongate v1 documentation converted from HTML to clean, well-structured Markdown format. Designed for seamless integration with AI tools, vector databases, static site generators, and modern documentation workflows.
 
-> [!IMPORTANT]
-> **Trongate v2 is coming!** Scheduled launch: **6th January 2026** (subject to confirmation). The new version will feature revamped documentation. [Explore the beta →](https://github.com/trongate/trongate-v2-beta)
+> [!IMPORTANT] > **Trongate v2 is coming!** Scheduled launch: **6th January 2026** (subject to confirmation). The new version will feature revamped documentation. [Explore the beta →](https://github.com/trongate/trongate-v2-beta)
 
 ---
 
@@ -53,39 +54,48 @@ Trongate v2 represents a revolutionary leap forward with groundbreaking architec
 ### 🎯 Major Highlights
 
 #### **Dramatic Engine Size Reduction**
+
 - **v1 Engine**: ~5,530 lines of code
 - **v2 Engine**: ~2,320 lines of code
 - **Result**: 58% reduction in core framework size!
 
 #### **Module-First Architecture**
+
 Almost everything becomes a module:
+
 - Templates → Module
-- Database (DB) → Module  
+- Database (DB) → Module
 - Validation → Module
 - Image → Module
 - File → Module
 
 This radical simplification means:
+
 - Faster framework performance
 - Easier to understand and customise
 - AI engines can easily comprehend the entire framework
 - Community can build specialised modules (e.g., `validation_japan` for Japanese form validation)
 
 #### **Built-in Internationalisation**
+
 Creating multilingual sites with localised validation messages becomes a **3-minute task**. Perfect for global applications!
 
 #### **Trongate MX Included**
+
 The powerful HTMX-style JavaScript library will be included by default (but optional to use).
 
 #### **AI-Optimised Design**
+
 With the tiny engine size, fully automated AI-driven web development becomes feasible. The framework is being designed for the AI era.
 
 #### **Hyper-Optimised Performance**
+
 Extensive refactoring and optimisation work has produced remarkable results:
 
 **Benchmark Results** (Apache Bench: 1000 requests, 100 concurrent):
+
 - Test #1: 1,417.03 req/sec
-- Test #2: 1,908.98 req/sec  
+- Test #2: 1,908.98 req/sec
 - Test #3: 2,192.38 req/sec
 - **Average: ~77% performance improvement over v1** 🚀
 
@@ -95,6 +105,7 @@ Extensive refactoring and optimisation work has produced remarkable results:
 ![TGv2](https://ums.myds.me/images/TGv2.png)
 
 **Core Optimisations:**
+
 - Streamlined autoloader with single filesystem operation
 - Regex-based custom route matching with static caching (5-10x faster route resolution)
 - Optimised `get_segments()` function (20-30% faster URL parsing)
@@ -103,6 +114,7 @@ Extensive refactoring and optimisation work has produced remarkable results:
 - Priority-based view path resolution (20-30% faster view rendering)
 
 **Overall Impact:**
+
 - 25-40% reduction in framework overhead
 - 15-25% improvement for simple pages
 - 25-40% improvement for complex pages
@@ -113,18 +125,18 @@ Extensive refactoring and optimisation work has produced remarkable results:
 
 ### 💬 What the Community is Saying
 
-> *"The current Trongate is wonderful and easy to use. The flexible becomes even more flexible. And not only is it not at the expense of a slower system, but it speeds things up. Superb!"* — r-evo
+> _"The current Trongate is wonderful and easy to use. The flexible becomes even more flexible. And not only is it not at the expense of a slower system, but it speeds things up. Superb!"_ — r-evo
 
-> *"Being able to customise/translate validation messages is going to be a huge plus, especially for non-English web applications."* — Balazs
+> _"Being able to customise/translate validation messages is going to be a huge plus, especially for non-English web applications."_ — Balazs
 
-> *"Other frameworks are becoming increasingly complex but Trongate is simplifying, speeding up and becoming more efficient than ever before."* — Balazs
+> _"Other frameworks are becoming increasingly complex but Trongate is simplifying, speeding up and becoming more efficient than ever before."_ — Balazs
 
 ### 📚 What This Means for This Repository
 
 Once Trongate v2 documentation is released, we plan to:
 
 - Create a parallel conversion for v2 documentation
-- Maintain v1 documentation for legacy projects  
+- Maintain v1 documentation for legacy projects
 - Provide clear versioning and migration guides
 - Continue supporting both versions during the transition period
 - Leverage the new modular architecture for better documentation organisation
@@ -185,16 +197,19 @@ ls -la
 ### Usage
 
 **For Reading:**
+
 - Open any `.md` file in your preferred Markdown viewer
 - Navigate through directories to find specific topics
 
 **For Integration:**
+
 - Import into your vector database for RAG applications
 - Use with MCP servers like [Context 7](https://context7.com/)
 - Build a static site with your preferred generator
 - Index for search functionality
 
 **For Development:**
+
 - Reference while building Trongate applications
 - Integrate into IDE documentation systems
 - Use for offline development reference
@@ -204,16 +219,19 @@ ls -la
 ## 💡 Use Cases
 
 ### AI & Machine Learning
+
 - **Vector Databases**: Embed documentation for semantic search and RAG systems
 - **LLM Context**: Provide framework knowledge to AI coding assistants
 - **Training Data**: Use as training material for Trongate-specific models
 
 ### Documentation Publishing
+
 - **Static Sites**: Deploy with MkDocs, Docusaurus, or VuePress
 - **GitHub Pages**: Publish directly from this repository
 - **Custom Platforms**: Integrate with any Markdown-based documentation system
 
 ### Development Workflows
+
 - **Offline Reference**: Access documentation without internet connection
 - **IDE Integration**: Link documentation directly in your development environment
 - **Version Tracking**: Monitor documentation changes alongside code
@@ -232,7 +250,7 @@ The conversion pipeline follows these steps:
    - Tables and lists
    - Images and embedded media
    - Internal and external links
-4. **Post-Processing**: 
+4. **Post-Processing**:
    - Heading normalisation
    - Acronym casing corrections
    - Link validation
@@ -249,17 +267,20 @@ The conversion pipeline follows these steps:
 ### Planned Features
 
 - [ ] **Book Format Transformation**
+
   - Remove numeric prefixes from filenames (e.g., `0001-intro.html` → `intro.md`)
   - Add collection titles and descriptions from `docs_collections.json`
   - Generate automatic table of contents for each collection
   - Improve heading hierarchy and structure
 
 - [ ] **Enhanced LLM Integration**
+
   - Optimise chunking for vector databases
   - Add metadata frontmatter for better indexing
   - Create embeddings-friendly formatting
 
 - [ ] **Automation & CI/CD**
+
   - Automated conversion pipeline on upstream HTML changes
   - Pull request generation for documentation updates
   - Continuous integration testing for conversion quality
@@ -297,14 +318,14 @@ Contributions are welcome! Here's how you can help:
 
 ## 📊 Status
 
-| Component | Status | Notes |
-|-----------|--------|-------|
-| PHP Framework Docs | ✅ Complete | Base conversion finished |
-| API Reference | ✅ Complete | Base conversion finished |
-| Trongate CSS | ✅ Complete | Base conversion finished |
-| Trongate MX | ✅ Complete | Base conversion finished |
-| Manual Cleanup | ⚠️ In Progress | Complex pages need review |
-| Automated Pipeline | 🔄 Planned | Scheduled for future release |
+| Component          | Status         | Notes                        |
+| ------------------ | -------------- | ---------------------------- |
+| PHP Framework Docs | ✅ Complete    | Base conversion finished     |
+| API Reference      | ✅ Complete    | Base conversion finished     |
+| Trongate CSS       | ✅ Complete    | Base conversion finished     |
+| Trongate MX        | ✅ Complete    | Base conversion finished     |
+| Manual Cleanup     | ⚠️ In Progress | Complex pages need review    |
+| Automated Pipeline | 🔄 Planned     | Scheduled for future release |
 
 > [!WARNING]
 > Some pages with complex HTML structures, screenshots, or non-standard markup may still require manual cleanup. Please report any formatting issues you encounter.
