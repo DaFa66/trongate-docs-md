@@ -145,7 +145,7 @@ While templates serve their purpose for basic page layouts, themes offer several
 
 - **Portability:** Entire design packages can be contained within a single folder, making them easy to transfer between projects or share with the community
 - **Complete Design Systems:** Themes can include everything needed for a consistent look and feel:
-        
+
 - Templates
 - Stylesheets
 - JavaScript files
@@ -154,7 +154,6 @@ While templates serve their purpose for basic page layouts, themes offer several
 - Color schemes
 
 
-    
 - **Easy Switching:** Change the entire appearance of your application by modifying a single line in your theme configuration
 - **Version Control:** Keep entire design packages under version control as a single unit, making it easier to track design changes
 - **Resource Management:** The `THEME_DIR` constant provides a reliable way to reference theme-specific assets, eliminating path management headaches

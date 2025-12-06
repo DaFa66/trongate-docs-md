@@ -45,13 +45,12 @@ In this example, search requests are throttled to a maximum of one request every
 > 
 > 1. **Real-time tracking:** Unlike the 'change' event, which typically fires when the element loses focus, the 'input' event fires immediately whenever the value changes.
 > 2. **Covers multiple input methods:** It triggers for various types of input, including:
->   
+> 
 > - Typing on a keyboard
 > - Pasting text (via mouse or keyboard)
 > - Drag-and-drop actions
 > - Speech input
 > - Autocomplete suggestions
-> 
 > 
 > 
 > 3. **Works with different input types:** It's not just for text inputs. It works with other input types like number, range, color, etc.

@@ -37,7 +37,7 @@ JzMSngd6VJhYzzcXCKyatoYQr8SbpjzN
 > 
 > 1. Verify if a user is authenticated
 > 2. Retrieve associated user details, such as:
-> 	    
+> 
 > - Username
 > - Email address
 > - User role/level

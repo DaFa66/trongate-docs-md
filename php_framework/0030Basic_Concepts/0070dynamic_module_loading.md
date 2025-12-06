@@ -12,41 +12,31 @@ In Trongate, modules are self-contained components that encapsulate specific fun
 
 
 1. **Loading a Module:**
-        
 To load a module, simply call the module() method in your controller and pass the name of the module as a parameter. For example:
 
-
-        ```php
+```php
 $this->module('trongate_security');
 ```
 
 
-        
 This method delegates the loading process to the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class), which handles the instantiation and attachment of the module to your controller.
 
 
-    
 2. **Dynamic Property Attachment:**
-        
 Once a module is loaded, it is dynamically attached to the [Trongate](documentation-ref/list_refs/class_reference/the-trongate-class) instance as a property. For example, after calling `$this->module('trongate_security');`, the [Trongate Security](documentation-ref/list_refs/pre_installed/trongate-security) module becomes accessible via `$this->trongate_security`.
 
 
-    
 3. **Using the Module:**
-        
 After loading the module, you can immediately use its methods. For example:
 
-
-        ```php
+```php
 $this->trongate_security->_make_sure_allowed();
 ```
 
 
-        
 This seamless integration ensures that modules are ready to use as soon as they are loaded, without any additional configuration.
 
 
-    
 
 
 ---
@@ -63,19 +53,17 @@ The module() method in the [Trongate class](documentation-ref/list_refs/class_re
 
 
 1. The module() method creates an instance of the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class):
-        ```php
+```php
 $modules = new Modules;
 ```
 
 
-    
 2. It then calls the load() method of the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class), passing the name of the module to be loaded:
-        ```php
+```php
 $modules->load($target_module);
 ```
 
 
-    
 
 ### The Role of the Modules Class
 
@@ -84,19 +72,17 @@ The [Modules class](documentation-ref/list_refs/class_reference/the-modules-clas
 
 
 1. The load() method constructs the path to the module’s controller file based on the module name:
-        ```php
+```php
 $target_controller_path = '../modules/' . $target_module . '/controllers/' . ucfirst($target_module) . '.php';
 ```
 
 
-    
 2. If the controller file exists, it is included, and the module’s controller class is instantiated:
-        ```php
+```php
 $this->modules[$target_module] = new $target_module($target_module);
 ```
 
 
-    
 3. The instantiated module is stored in the `$modules` array within the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class), ensuring that it can be reused if needed. This caching mechanism prevents redundant instantiations of the same module during a single request, improving performance.
 
 ### The Role of the Dynamic_properties Trait
@@ -122,19 +108,17 @@ The `Dynamic_properties` trait enables the [Trongate class](documentation-ref/li
 
 
 1. When a module is loaded, the `Dynamic_properties` trait allows the module to be dynamically attached to the [Trongate](documentation-ref/list_refs/class_reference/the-trongate-class) instance as a property. For example:
-        ```php
+```php
 $this->trongate_security = new Trongate_Security('trongate_security');
 ```
 
 
-    
 2. This dynamic property attachment ensures that the module is accessible throughout the `Trongate` instance, allowing you to call its methods directly. For example:
-        ```php
+```php
 $this->trongate_security->_make_sure_allowed();
 ```
 
 
-    
 
 
 The `Dynamic_properties` trait is essential for enabling this flexibility, as it allows properties like `$this->trongate_security` to be added dynamically without requiring explicit declarations in the [Trongate class](documentation-ref/list_refs/class_reference/the-trongate-class).

@@ -15,12 +15,11 @@ Initiates a file download or displays it inline in the browser. This method prep
 - It checks if the file exists and is readable. If the file is inaccessible or does not exist, an exception is thrown.
 - If the file is valid, it clears any output buffers to prevent interference with the file download.
 - It sets the appropriate HTTP headers based on the `$as_attachment` parameter:
-        
+
 - If `$as_attachment` is `true`, the browser will prompt the user to download the file.
 - If `$as_attachment` is `false`, the file will be displayed inline in the browser (if supported by the file type).
 
 
-      
 - The file is then read and sent to the output buffer using `readfile()`.
 - The script terminates immediately after sending the file to prevent additional output.
 

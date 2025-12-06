@@ -14,8 +14,7 @@ Ensure that the system meets the following requirements:
 
 
 - **PHP:** PHP 8 or newer is required to use the latest version of Trongate with Packagist.
-- 
-        **Composer:** Composer must be installed on the system for managing library dependencies. 
+- **Composer:** Composer must be installed on the system for managing library dependencies. 
         If Composer is not installed, visit 
         [getcomposer.org](https://getcomposer.org/) to download and install it.
     
@@ -24,27 +23,24 @@ Ensure that the system meets the following requirements:
 ### Step 1: Setting Up the Project with Composer
 
 
-1. 
-        **Initialize Composer:** If a `composer.json` file is not already present in the 
+1. **Initialize Composer:** If a `composer.json` file is not already present in the 
         project, create one by running the following command in the project directory:
-        ```
+```
 composer init
 ```
 
 
         Follow the prompts to configure the project. This setup helps manage project dependencies.
     
-2. 
-        **Install Guzzle:** Add Guzzle to the project by running:
-        ```
+2. **Install Guzzle:** Add Guzzle to the project by running:
+```
 composer require guzzlehttp/guzzle
 ```
 
 
         This command instructs Composer to find Guzzle on Packagist and install it along with any necessary dependencies.
     
-3. 
-        **Verify Installation:** Ensure that the Guzzle library has been added to the project by checking 
+3. **Verify Installation:** Ensure that the Guzzle library has been added to the project by checking 
         that the `composer.json` file includes Guzzle and that the `vendor` directory has been 
         created with Guzzle files in it.
     
@@ -52,33 +48,28 @@ composer require guzzlehttp/guzzle
 ### Step 2: Using Guzzle in a Trongate Application
 
 
-1. 
-        **Autoload Dependencies:** To use Guzzle, include Composer's autoloader in the PHP script. 
+1. **Autoload Dependencies:** To use Guzzle, include Composer's autoloader in the PHP script. 
         Add the following line at the top of the PHP file:
-        ```php
+```php
 require_once APPPATH.'vendor/autoload.php';
 ```
 
 
         This inclusion ensures that all dependencies, including Guzzle, are loaded and available for use.
     
-2. 
-        **Create an HTTP Client:** Instantiate a new Guzzle client to make HTTP requests:
-        ```php
+2. **Create an HTTP Client:** Instantiate a new Guzzle client to make HTTP requests:
+```php
 $client = new GuzzleHttp\Client();
 ```
 
 
-    
-3. 
-        **Make an HTTP Request:** Use the client to send a request and retrieve the response:
-        ```php
+3. **Make an HTTP Request:** Use the client to send a request and retrieve the response:
+```php
 $response = $client->request('GET', 'https://api.example.com/data');
 echo $response->getBody();
 ```
 
 
-    
 
 ## Complete Example
 

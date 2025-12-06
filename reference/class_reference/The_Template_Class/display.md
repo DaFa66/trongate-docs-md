@@ -24,7 +24,7 @@ The method automatically determines the correct module and view file to load bas
 
 | Parameter | Type | Description | Default | Required |
 | ---|---|---|---|---|
-| data | array\|null | An associative array that can contain:<br>                    <br>- `view_module`: The module directory name<br>- `view_file`: The view file name (without .php extension)<br>- Any additional variables needed by the view | null | No |
+| data | array\|null | An associative array that can contain:<br><br>- `view_module`: The module directory name<br>- `view_file`: The view file name (without .php extension)<br>- Any additional variables needed by the view | null | No |
 
 ## Return Value
 

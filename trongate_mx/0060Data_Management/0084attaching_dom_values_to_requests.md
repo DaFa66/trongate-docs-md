@@ -210,22 +210,17 @@ public function submit() {
 > **Best Practices**
 >
 > 1. **Use Specific Selectors**
->         
 > - Prefer IDs and unique class names.
 > - Avoid relying on element position or order.
 > 
 > 
->     
 > 2. **Choose Appropriate Properties**
->         
 > - Use `value` for form inputs.
 > - Use `innerText` for capturing text content.
 > - Use `innerHTML` when HTML markup is needed.
 > 
 > 
->     
 > 3. **Validation**
->         
 > - Always validate captured values server-side.
 > - Don't trust DOM values for critical operations.
 > - Apply appropriate sanitization for HTML content.

@@ -78,13 +78,12 @@ While upcoming pages will delve deeper into the specifics of token generation, v
 
 - **Generation:** Tokens are created upon specific events, such as successful login or account creation. Developers can customize parameters like `expiry_date` and whether the token should be stored in a cookie.
 - **Storage:** Tokens can be stored in multiple locations, including:
-        
+
 - **Session:** Ideal for server-side applications.
 - **Cookies:** Useful for client-side persistence.
 - **HTTP Headers:** Commonly used for API-based interactions.
 
 
-    
 - **Validation:** Trongate validates tokens by querying the `trongate_tokens` table, ensuring the token is active and associated with a valid user.
 - **Expiration and Cleanup:** Tokens have a default lifespan of one day (86,400 seconds). Expired tokens are automatically purged from the database to maintain system integrity.
 

@@ -21,14 +21,14 @@ Handles picture uploads within the Trongate framework with optional thumbnail ge
 
 | Parameter | Type | Description | Required |
 | ---|---|---|---|
-| $config | array | Core configuration options:<br>          <br>- `destination`: Target upload directory path<br>- `max_width`: Maximum width for main image<br>- `max_height`: Maximum height for main image<br>- `upload_to_module`: Whether to store in module assets<br>- `make_rand_name`: Whether to randomize filenames<br><br><br>          Optional thumbnail settings:<br>          <br>- `thumbnail_dir`: Directory for thumbnails<br>- `thumbnail_max_width`: Maximum thumbnail width<br>- `thumbnail_max_height`: Maximum thumbnail height | Yes |
+| $config | array | Core configuration options:<br><br>- `destination`: Target upload directory path<br>- `max_width`: Maximum width for main image<br>- `max_height`: Maximum height for main image<br>- `upload_to_module`: Whether to store in module assets<br>- `make_rand_name`: Whether to randomize filenames<br><br><br>          Optional thumbnail settings:<br><br>- `thumbnail_dir`: Directory for thumbnails<br>- `thumbnail_max_width`: Maximum thumbnail width<br>- `thumbnail_max_height`: Maximum thumbnail height | Yes |
 
 ## Return Value
 
 
 | Type | Description |
 | ---|---|
-| array\|null | Returns an array containing:<br>          <br>- `file_name`: Name of the uploaded file<br>- `file_path`: Full path to the uploaded file<br>- `file_type`: MIME type of the file<br>- `file_size`: File size in bytes<br>- `thumbnail_path`: Path to thumbnail (if generated) |
+| array\|null | Returns an array containing:<br><br>- `file_name`: Name of the uploaded file<br>- `file_path`: Full path to the uploaded file<br>- `file_type`: MIME type of the file<br>- `file_size`: File size in bytes<br>- `thumbnail_path`: Path to thumbnail (if generated) |
 
 ## Example Usage
 

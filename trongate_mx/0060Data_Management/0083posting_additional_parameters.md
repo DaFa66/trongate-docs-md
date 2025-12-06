@@ -168,29 +168,22 @@ public function submit() {
 > **Best Practices**
 >
 > 1. **Use json_encode()**
->             
 > - Prefer `json_encode()` over manual JSON string construction.
 > - Helps prevent syntax errors and ensures proper escaping.
 > 
 > 
->         
 > 2. **Organize Values**
->             
 > - Define mx-vals arrays separately for better code organization.
 > - Makes it easier to modify values dynamically.
 > 
 > 
->         
 > 3. **Value Types**
->             
 > - Numbers don't need quotes: `"age": 30`.
 > - Booleans are supported: `"is_active": true`.
 > - Strings must use double quotes: `"name": "John"`.
 > 
 > 
->         
 > 4. **Security**
->             
 > - Always validate mx-vals data on the server side.
 > - Don't trust client-side values for critical operations.
 > - Use appropriate data types and validation rules.

@@ -84,14 +84,11 @@ This text is centered.
 Trongate CSS provides three text alignment classes for your convenience:
 
 
-- 
-    `.text-left` – Aligns text to the left.
+- `.text-left` – Aligns text to the left.
   
-- 
-    `.text-right` – Aligns text to the right.
+- `.text-right` – Aligns text to the right.
   
-- 
-    `.text-center` – Centers the text horizontally.
+- `.text-center` – Centers the text horizontally.
   
 
 

@@ -10,7 +10,6 @@ Consider these common scenarios:
 
 
 1. **Financial Attack:**
-        
 - You log into your bank account and stay logged in.
 - In another tab, you visit a malicious website.
 - The malicious site contains hidden code that sends a request to your bank to transfer money.
@@ -18,9 +17,7 @@ Consider these common scenarios:
 - The bank processes the request because it appears legitimate.
 
 
-    
 2. **Form Submission Attack:**
-        
 - You're logged into your website's admin panel.
 - A malicious user sets up a fake form on their website that matches your site's form structure.
 - They trick you into submitting their form (maybe disguised as something else).
@@ -28,7 +25,6 @@ Consider these common scenarios:
 - Your website processes the unwanted form submission.
 
 
-    
 
 ## Built-in Protection in Trongate MX
 

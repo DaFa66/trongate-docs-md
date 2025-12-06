@@ -80,7 +80,7 @@ The form_file_select method displays a form file uploader field. As you can see,
 
 > [!WARNING]
 > The form_file_select method can accept the following three arguments:
->   
+> 
 > - name
 > - attributes
 > 

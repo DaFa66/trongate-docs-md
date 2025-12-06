@@ -167,7 +167,7 @@ Fetch Data
 > In order for the code above to work with *your* application, you'll have to set up and API endpoint and also load Trongate MX onto your webpage.
 > 
 > 
->     
+> 
 > For the purposes of avoiding repetition, we won't cover that here.  However, if you are interested in learning more about Trongate's powerful front-end framework, we strongly encourage you to check out the [Trongate MX Documentation](documentation/display/trongate_mx).
 
 

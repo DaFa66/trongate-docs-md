@@ -42,7 +42,7 @@ Handles the entire process of uploading and processing an image file. This metho
 
 | Type | Description |
 | ---|---|
-| array | An associative array containing details about the uploaded file, including:<br>          <br>- **file_name** (string): The name of the uploaded file.<br>- **file_path** (string): The full path to the uploaded file.<br>- **file_type** (string): The MIME type of the uploaded file.<br>- **file_size** (int): The size of the uploaded file in bytes.<br>- **thumbnail_path** (string, optional): The full path to the generated thumbnail, if applicable. |
+| array | An associative array containing details about the uploaded file, including:<br><br>- **file_name** (string): The name of the uploaded file.<br>- **file_path** (string): The full path to the uploaded file.<br>- **file_type** (string): The MIME type of the uploaded file.<br>- **file_size** (int): The size of the uploaded file in bytes.<br>- **thumbnail_path** (string, optional): The full path to the generated thumbnail, if applicable. |
 
 ## Exceptions
 

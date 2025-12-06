@@ -41,12 +41,11 @@ Retrieves a value from POST data, handling both traditional form-encoded data an
 - **Trimming:** Removes leading and trailing whitespace using `trim()` for string values.
 - **Sanitization:** Applies `htmlspecialchars()` to convert special characters to HTML entities in string values, helping prevent Cross-Site Scripting (XSS) attacks.
 - **Type Conversion:** If the sanitized value is numeric:
-        
+
 - Converts to `int` if the value is a whole number.
 - Converts to `float` if the value contains a decimal point.
 
 
-      
 - **Array Handling:** For array values (e.g., from JSON data), applies trimming and sanitization recursively to all string elements.
 ## Example Usage
 

@@ -138,11 +138,11 @@ The example below uses `.flex-row`, a little custom CSS to produce an attractive
 Checkboxes and radio buttons can be organized into intuitive groups:
 
 Choose Your Interests
-            Technology Sports Travel
+Technology Sports Travel
 
         
             Select Your Role
-            Developer Designer Manager
+Developer Designer Manager
 ```html
 <fieldset>
     <label>Choose Your Interests</label>

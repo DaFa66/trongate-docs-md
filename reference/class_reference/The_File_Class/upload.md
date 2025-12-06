@@ -23,7 +23,7 @@ Handles the file upload process with specified configuration. This method valida
 
 | Parameter | Type | Description | Default |
 | ---|---|---|---|
-| $config | array | An associative array containing upload configuration options:<br>          <br>- `'destination'`: (string) The target directory for the uploaded file.<br>- `'target_module'`: (string) The target module name (defaults to the current segment).<br>- `'upload_to_module'`: (bool) Whether to upload to the module's assets directory (default: false).<br>- `'make_rand_name'`: (bool) Whether to generate a random filename (default: false). | N/A |
+| $config | array | An associative array containing upload configuration options:<br><br>- `'destination'`: (string) The target directory for the uploaded file.<br>- `'target_module'`: (string) The target module name (defaults to the current segment).<br>- `'upload_to_module'`: (bool) Whether to upload to the module's assets directory (default: false).<br>- `'make_rand_name'`: (bool) Whether to generate a random filename (default: false). | N/A |
 
 ## Exceptions
 
@@ -39,7 +39,7 @@ Throws an **Exception** if:
 
 | Type | Description |
 | ---|---|
-| array | An associative array containing details about the uploaded file:<br>          <br>- `'file_name'`: (string) The name of the uploaded file.<br>- `'file_path'`: (string) The full path to the uploaded file.<br>- `'file_type'`: (string) The MIME type of the uploaded file.<br>- `'file_size'`: (int) The size of the uploaded file in bytes. |
+| array | An associative array containing details about the uploaded file:<br><br>- `'file_name'`: (string) The name of the uploaded file.<br>- `'file_path'`: (string) The full path to the uploaded file.<br>- `'file_type'`: (string) The MIME type of the uploaded file.<br>- `'file_size'`: (int) The size of the uploaded file in bytes. |
 
 ## Example Usage
 

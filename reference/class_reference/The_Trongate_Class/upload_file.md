@@ -27,7 +27,7 @@ Uploads a file using the `upload` method from the `File` class. This method serv
 
 | Type | Description |
 | ---|---|
-| array\|null | Returns an associative array containing details about the uploaded file if the operation is successful. The array includes:<br>          <br>- `file_name`: (string) The name of the uploaded file.<br>- `file_path`: (string) The full path to the uploaded file.<br>- `file_type`: (string) The MIME type of the uploaded file.<br>- `file_size`: (int) The size of the uploaded file in bytes.<br><br><br>          If the upload fails, an exception is thrown, and no value is returned. |
+| array\|null | Returns an associative array containing details about the uploaded file if the operation is successful. The array includes:<br><br>- `file_name`: (string) The name of the uploaded file.<br>- `file_path`: (string) The full path to the uploaded file.<br>- `file_type`: (string) The MIME type of the uploaded file.<br>- `file_size`: (int) The size of the uploaded file in bytes.<br><br><br>          If the upload fails, an exception is thrown, and no value is returned. |
 
 ## Example Usage
 

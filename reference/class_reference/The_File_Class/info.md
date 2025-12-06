@@ -13,7 +13,7 @@ Retrieves metadata about a file, including its name, size, last modification tim
 
 - The method first checks if the file exists at the specified path. If the file does not exist, an exception is thrown.
 - If the file exists, it retrieves the following metadata:
-        
+
 - **File Name:** The base name of the file (e.g., `file.txt`).
 - **Size:** The size of the file in bytes.
 - **Human-Readable Size:** The size of the file formatted in a human-readable format (e.g., `1.23 MB`).
@@ -23,7 +23,6 @@ Retrieves metadata about a file, including its name, size, last modification tim
 - **MIME Type:** The MIME type of the file (e.g., `text/plain`).
 
 
-      
 - The metadata is returned as an associative array.
 
 
@@ -40,7 +39,7 @@ Retrieves metadata about a file, including its name, size, last modification tim
 
 | Type | Description |
 | ---|---|
-| array | An associative array containing the following metadata:<br>          <br>- `file_name`: (string) The base name of the file.<br>- `size`: (int) The size of the file in bytes.<br>- `human_readable_size`: (string) The size of the file in a human-readable format.<br>- `modified_time`: (int) The last modification time as a Unix timestamp.<br>- `permissions`: (int) The file permissions in octal notation.<br>- `readable_permissions`: (string) The file permissions formatted for readability.<br>- `mime_type`: (string) The MIME type of the file. |
+| array | An associative array containing the following metadata:<br><br>- `file_name`: (string) The base name of the file.<br>- `size`: (int) The size of the file in bytes.<br>- `human_readable_size`: (string) The size of the file in a human-readable format.<br>- `modified_time`: (int) The last modification time as a Unix timestamp.<br>- `permissions`: (int) The file permissions in octal notation.<br>- `readable_permissions`: (string) The file permissions formatted for readability.<br>- `mime_type`: (string) The MIME type of the file. |
 
 ## Exceptions
 

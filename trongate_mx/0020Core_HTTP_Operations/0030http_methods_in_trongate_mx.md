@@ -45,19 +45,15 @@ The table below shows all of the different types of HTTP requests that can be ma
 > 
 > 
 > 1. **Client-Side (Trongate MX):**
->       
 > - The JavaScript library supports all HTTP method attributes (`mx-get`, `mx-post`, `mx-put`, `mx-patch`, `mx-delete`).
 > - Sends requests using the specified HTTP method.
 > 
 > 
->     
 > 2. **Server-Side (Trongate PHP):**
->       
 > - Check the HTTP method using: `$_SERVER['REQUEST_METHOD']`.
 > - Get request data using the post() function, which handles all HTTP methods.
 > 
 > 
->     
 > 
 > #### Example Usage in Controllers:
 > 

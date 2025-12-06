@@ -8,7 +8,7 @@ XAMPP is a *downloadable web development environment*. In other words, it's an a
 
 
 - It gives you the latest (major) version of PHP *and *MariaDB  
- 
+
 - It's available for Mac, Windows and Linux
 - It comes with an easy installation wizard
 - It also comes with a handy database management application called 'PHPMyAdmin'

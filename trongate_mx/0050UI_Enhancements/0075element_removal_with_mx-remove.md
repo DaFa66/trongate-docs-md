@@ -8,17 +8,9 @@ Trongate MX makes it super easy to remove elements from your webpage with its `m
 
 Try clicking on the 'Remove' buttons and notice how the items are immediately removed from the page.
 
-- 
-    Bread
-    Remove **
-  
-- 
-    Milk
-    Remove **
-  
-- 
-    Eggs
-    Remove **
+- BreadRemove **
+- MilkRemove **
+- EggsRemove **
 > [!NOTE]
 > **Just To Let You Know...**
 >
@@ -233,12 +225,11 @@ public function remove() {<br>
 > - Combine `mx-remove` with attributes like `mx-post` or `mx-target` to handle backend operations while updating the UI.
 > - 
 >     Remember:
->     
+> 
 > 1. Class selectors require a dot (e.g., `.notification`).
 > 2. ID selectors require a hash symbol (e.g., `#message`).
 > 
 > 
->   
 > - Test error scenarios to ensure robust error handling.
 
 
@@ -248,30 +239,23 @@ public function remove() {<br>
 When a click event occurs on an element with the `mx-remove` attribute, Trongate MX performs the following steps:
 
 
-1. 
-   **Check Attribute Value**
-   
+1. **Check Attribute Value**
 The system checks the attribute value and processes it in one of two ways:
 
 
-   
 - For `mx-remove="true"`: Identifies the immediate parent using `parentElement`
 - For `mx-remove="selector"`: Finds the closest matching ancestor using `closest(selector)`
 
 
- 
-2. 
-   **Update DOM**
-   
+2. **Update DOM**
 The matched element is immediately removed from the DOM, with all changes applied instantly without additional JavaScript.
 
 
- 
 
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> - **Client-Side Only:** `mx-remove` doesn't send HTTP requests or modify your database. Combine it with `mx-post` for server-side operations.
+> - **Client-Side Only:**`mx-remove` doesn't send HTTP requests or modify your database. Combine it with `mx-post` for server-side operations.
 > - **Immediate Changes:** Removal is instant and cannot be undone without refreshing the page.
 > - **Value Requirements:** The `mx-remove` attribute must be set to either `true` or a valid CSS selector.
 > - **Versatility:** Works with any clickable element (e.g., buttons, links).

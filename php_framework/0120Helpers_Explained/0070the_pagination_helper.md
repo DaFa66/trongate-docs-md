@@ -332,32 +332,26 @@ window.addEventListener('resize', () => {
 The JavaScript code shown above is structured around three main functions:
 
 
-1. 
-      **managePagination()**: The central function that coordinates everything
-      
+1. **managePagination()**: The central function that coordinates everything
+
 - Sets opacity to 0 during manipulation
 - Checks viewport width and applies the appropriate view
 - Reveals the pagination after changes are complete
 
 
-    
-2. 
-      **applyMobileView()**: Handles the mobile view (screens < 840px)
-      
+2. **applyMobileView()**: Handles the mobile view (screens < 840px)
+
 - Adds the "pagination-mobile" class for styling hooks
 - Shows only essential elements: active page, previous («), and next (»)
 - Hides all other pagination links
 
 
-    
-3. 
-      **applyDesktopView()**: Handles the desktop view (screens ≥ 840px)
-      
+3. **applyDesktopView()**: Handles the desktop view (screens ≥ 840px)
+
 - Removes the "pagination-mobile" class
 - Shows all pagination links
 
 
-    
 
 
 The code also includes debounced resize handling to prevent performance issues during browser resizing.

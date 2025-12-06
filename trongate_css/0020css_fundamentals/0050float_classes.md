@@ -73,11 +73,9 @@ This text demonstrates how content wraps around a right-floated element. Notice 
 Trongate CSS provides two float utility classes:
 
 
-- 
-    `.float-left` – Floats elements to the left with relative positioning
+- `.float-left` – Floats elements to the left with relative positioning
   
-- 
-    `.float-right` – Floats elements to the right with relative positioning
+- `.float-right` – Floats elements to the right with relative positioning
   
 
 

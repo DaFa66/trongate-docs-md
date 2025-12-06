@@ -81,42 +81,24 @@ gradient
 ## Understanding the Variables
 
 
-- 
-    `--primary`: Main theme color, typically used for header backgrounds, buttons and interactive elements.
-- 
-    `--primary-dark`: Slightly darker version of the primary color, used for hover states.
-- 
-    `--primary-darker`: Darkest version, used for borders and active states.
-- 
-    `--secondary`: Secondary color for accents and complementary elements.
-- 
-    `--secondary-dark`: Darker version of the secondary color, used for hover states.
-- 
-    `--secondary-darker`: Darkest version of secondary color, used for active states.
-- 
-    `--success`: Green color used to indicate successful actions or positive status.
-- 
-    `--success-dark`: Darker green for hover states on success elements.
-- 
-    `--info`: Light blue color used for informational messages.
-- 
-    `--warning`: Orange color used for warning messages and alerts.
-- 
-    `--danger`: Red color used for error states and destructive actions.
-- 
-    `--danger-dark`: Darker red used for hover states on danger elements.
-- 
-    `--inverse`: Dark contrast color for reversed color schemes.
-- 
-    `--silver`: Metallic silver color for decorative elements.
-- 
-    `--gold`: Metallic gold color for premium or featured elements.
-- 
-    `--neutral`: Base neutral color for backgrounds and default states.
-- 
-    `--alt`: Alternative neutral color for secondary backgrounds.
-- 
-    `--border`: Default color for borders and dividers.
+- `--primary`: Main theme color, typically used for header backgrounds, buttons and interactive elements.
+- `--primary-dark`: Slightly darker version of the primary color, used for hover states.
+- `--primary-darker`: Darkest version, used for borders and active states.
+- `--secondary`: Secondary color for accents and complementary elements.
+- `--secondary-dark`: Darker version of the secondary color, used for hover states.
+- `--secondary-darker`: Darkest version of secondary color, used for active states.
+- `--success`: Green color used to indicate successful actions or positive status.
+- `--success-dark`: Darker green for hover states on success elements.
+- `--info`: Light blue color used for informational messages.
+- `--warning`: Orange color used for warning messages and alerts.
+- `--danger`: Red color used for error states and destructive actions.
+- `--danger-dark`: Darker red used for hover states on danger elements.
+- `--inverse`: Dark contrast color for reversed color schemes.
+- `--silver`: Metallic silver color for decorative elements.
+- `--gold`: Metallic gold color for premium or featured elements.
+- `--neutral`: Base neutral color for backgrounds and default states.
+- `--alt`: Alternative neutral color for secondary backgrounds.
+- `--border`: Default color for borders and dividers.
 
 ## The Primary Color
 
