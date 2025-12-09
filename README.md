@@ -49,24 +49,33 @@ The Trongate framework's official documentation is maintained in HTML format. Th
 
 ``` mermaid
 graph TD
-  A[Browser request: BASE_URL or /some/path] --> B[Web server (.htaccess) routes to index.php]
-  B --> C[Trongate bootstrap (index.php loads engine)]
-  C --> D{Parse incoming URI segments}
-  D -->|matches CUSTOM_ROUTES| E[Map to target: module/controller/method]
-  D -->|no custom route match| F[Use segments: 1 => module, 2 => method, 3+ => params]
-  F --> G{Any empty segments?}
-  G -->|empty / homepage| H[Apply DEFAULT_MODULE / DEFAULT_CONTROLLER / DEFAULT_METHOD]
-  G -->|segments present| I[Use module/controller/method from URI]
-  E --> J[Resolve controller class file in modules/<module>/controllers/]
+  A(Request: "/") --> B(Router Entry - index.php)
+  B --> C(Parse URI Segments)
+  C --> D{Custom Route Match?}
+
+  D -->|Yes| E(Use Mapped Module/Method)
+  D -->|No| F(Use Raw Segments)
+
+  F --> G{Segments Empty?}
+
+  G -->|Yes| H(Apply Defaults: welcome / Welcome / index)
+  G -->|No| I(Resolve Module / Controller / Method)
+
+  E --> J(Locate Controller File)
   I --> J
-  J --> K[Instantiate controller class]
-  K --> L[Invoke method (e.g. index())]
-  L --> M{Method loads a view OR template}
-  M -->|template| N[template('public', $data) -> templates/public.php loads modules/<view_module>/views/<view_file>.php]
-  M -->|direct view| O[view('file') -> modules/<module>/views/file.php]
-  N --> P[Output HTML to browser]
+
+  J --> K(Instantiate Controller Class)
+  K --> L(Call Method)
+
+  L --> M{Uses Template?}
+
+  M -->|Yes| N(Load templates/public.php)
+  M -->|No| O(Load View Directly)
+
+  N --> P(Render View File)
   O --> P
-  P --> Q[End]
+
+  P --> Q(Output to Browser)
 ```
 ---
 
