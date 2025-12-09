@@ -45,39 +45,6 @@ The Trongate framework's official documentation is maintained in HTML format. Th
 **Note**: This repository focuses on Trongate v1 documentation. Trongate v2 with revamped documentation is scheduled for release in early 2026.
 
 ---
-## 🎨 How It Loads The Welcome Page
-
-``` mermaid
-graph TD
-  A(Request: "/") --> B(Router Entry - index.php)
-  B --> C(Parse URI Segments)
-  C --> D{Custom Route Match?}
-
-  D -->|Yes| E(Use Mapped Module/Method)
-  D -->|No| F(Use Raw Segments)
-
-  F --> G{Segments Empty?}
-
-  G -->|Yes| H(Apply Defaults: welcome / Welcome / index)
-  G -->|No| I(Resolve Module / Controller / Method)
-
-  E --> J(Locate Controller File)
-  I --> J
-
-  J --> K(Instantiate Controller Class)
-  K --> L(Call Method)
-
-  L --> M{Uses Template?}
-
-  M -->|Yes| N(Load templates/public.php)
-  M -->|No| O(Load View Directly)
-
-  N --> P(Render View File)
-  O --> P
-
-  P --> Q(Output to Browser)
-```
----
 
 ## 🚀 What's Coming: Trongate v2
 
