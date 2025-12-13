@@ -1,4 +1,4 @@
-# Trongate Documentation (Markdown)
+# Trongate v1 - Documentation (Markdown)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Trongate](https://img.shields.io/badge/Trongate-grey.svg)](https://trongate.io)
