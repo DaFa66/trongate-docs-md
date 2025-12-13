@@ -87,7 +87,7 @@ The above code generates HTML that includes a hidden CSRF token:
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> For more information about form handling with Trongate MX, refer to the [Form Handling Overview](documentation/display/trongate_mx/form-handling/form-handling-overview).
+> For more information about form handling with Trongate MX, refer to the [Form Handling Overview](../0065Form_Handling/0010form_handling_overview.md).
 
 
 ## How It Works Behind the Scenes

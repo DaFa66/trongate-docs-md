@@ -72,7 +72,7 @@ fetch(targetUrl, {
 > [!TIP]
 > **Best Practices**
 >
-> Developers who are using [Trongate MX](documentation/display/trongate_mx) are advised to use the 'mx-token' attribute to automatically add token data to HTTP requests.  For more information, [click here](documentation/display/trongate_mx/trongate-mx-security/working-with-trongate-tokens).
+> Developers who are using [Trongate MX](../../trongate_mx) are advised to use the 'mx-token' attribute to automatically add token data to HTTP requests.  For more information, [click here](../../trongate_mx/0076Trongate_MX_Security/0081working_with_trongate_tokens.md).
 
 
 ## Fetching Tokens from HTTP Headers Using Pure PHP
@@ -91,7 +91,7 @@ In the code sample above, a `$token` variable is assigned the value of a 'Tronga
 > Accessing token data from the header via the `$_SERVER` superglobal does not confirm whether the token passed via the header is valid.
 > 
 > 
-> To validate token data, refer to the [token validation documentation](documentation/display/php_framework/authorization-and-authentication/token-validation) for guidance on using the Trongate Tokens class.
+> To validate token data, refer to the [token validation documentation](0064token_validation.md) for guidance on using the Trongate Tokens class.
 
 
 ## Security Considerations

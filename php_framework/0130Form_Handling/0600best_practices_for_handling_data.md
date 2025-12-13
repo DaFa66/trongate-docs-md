@@ -161,7 +161,7 @@ public function submit(): void {
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Full documentation regarding Trongate's Model class is offered in the [Database Operations](documentation/display/php_framework/database-operations) chapter.
+> Full documentation regarding Trongate's Model class is offered in the [Database Operations](../0088Database_operations) chapter.
 > 
 > 
 > In addition, all of the methods available within Trongate's Model class are detailed in the [API Reference Guide](documentation-ref/list_refs/class_reference/the-model-class).

@@ -172,6 +172,6 @@ If you prefer a more HTML-centered approach, you could use the following syntax:
 ```
 
 > [!CAUTION]
-> Building web applications with pure HTML forms could potentially expose your application to Cross-Site Request Forgery (CSRF) attacks. For more information, please refer to our documentation pertaining to [CSRF Protection](documentation/display/trongate_mx/trongate-mx-security/csrf-protection).
+> Building web applications with pure HTML forms could potentially expose your application to Cross-Site Request Forgery (CSRF) attacks. For more information, please refer to our documentation pertaining to [CSRF Protection](../0076Trongate_MX_Security/0079csrf_protection.md).
 
 

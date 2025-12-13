@@ -55,13 +55,13 @@ Extra Large ButtonLarge ButtonNormal ButtonSmall ButtonExtra Small Button
 > [!TIP]
 > **Best Practices**
 >
-> For more on this, check out our documentation on [Form Buttons](documentation/display/trongate_css/forms/form-buttons).
+> For more on this, check out our documentation on [Form Buttons](../0030forms/0030form_buttons.md).
 
 
 ## Practical Applications
 
 
-Size classes can effectively establish content hierarchy. Here's an example showing different size classes working together in [card element](documentation/display/trongate_css/cards-and-modals/working-with-cards):
+Size classes can effectively establish content hierarchy. Here's an example showing different size classes working together in [card element](../0040cards_and_modals/0010working_with_cards.md):
 
 Product Features
 ### Premium Package

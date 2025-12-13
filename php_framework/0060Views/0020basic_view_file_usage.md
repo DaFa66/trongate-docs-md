@@ -25,7 +25,7 @@ class Welcome extends Trongate {
 
 
 If the `index()` method is invoked, as specified by the 
-    [default homepage routing configuration](documentation/display/php_framework/understanding-routing/homepage-routing), 
+    [default homepage routing configuration](../0040Understanding_Routing/0015homepage_routing.md), 
     it loads a template and passes a `$data` array containing a 'view_file' property.
 
 ## Implementing a Custom Method
@@ -86,7 +86,7 @@ class Welcome extends Trongate {
 >         visibility modifiers (public, private, protected), and doc blocks for brevity. 
 >         These are essential for production code to ensure clarity, type safety, and proper documentation. 
 >         For additional information, please refer to the Trongate framework's 
->         [coding style guide](documentation/display/php_framework/basic-concepts/regarding-coding-style).
+>         [coding style guide](../0030Basic_Concepts/0010regarding_coding_style.md).
 
 
 ## Creating a Simple View File

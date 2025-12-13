@@ -1,7 +1,7 @@
 # Target Element Control
 
 
-The `mx-target-loading` attribute lets you control how [target elements](documentation/display/trongate_mx/core-http-operations/targeting-elements) behave during HTTP requests. You can either temporarily hide elements or swap their content with loading messages while waiting for the server to respond.
+The `mx-target-loading` attribute lets you control how [target elements](../0020Core_HTTP_Operations/0040targeting_elements.md) behave during HTTP requests. You can either temporarily hide elements or swap their content with loading messages while waiting for the server to respond.
 
 ## Usage
 
@@ -244,5 +244,5 @@ The `mx-target-loading` attribute in Trongate MX provides a means of controlling
 2. **Hide** the target element entirely.
 
 
-Since the attribute has a *swapping* capability, it has been added onto this chapter which has the title, '**Swapping Content**'.  However, it's worth noting that Trongate MX has a variety of other attributes that can be used to control application appearance *during* HTTP requests.  More details regarding those *other* attributes can be found in  [this chapter](documentation/display/trongate_mx/events-and-responses) and also in the [Trongate MX Attribute Reference](documentation/display/trongate_mx/reference/trongate-mx-attributes).
+Since the attribute has a *swapping* capability, it has been added onto this chapter which has the title, '**Swapping Content**'.  However, it's worth noting that Trongate MX has a variety of other attributes that can be used to control application appearance *during* HTTP requests.  More details regarding those *other* attributes can be found in  [this chapter](../0040Events_and_Responses) and also in the [Trongate MX Attribute Reference](../0080Reference/2000trongate_mx_attributes.md).
 

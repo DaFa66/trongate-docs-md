@@ -42,7 +42,7 @@ The spinner can be aligned differently using additional classes:
 ### Common Use Cases for Spinners
 
 
-Spinner elements often appear when content is being loaded via Ajax requests.  Often, they'll be used inside [dynamic modal elements](documentation/display/trongate_mx/ui-enhancements/building-dynamic-modals) or [card elements](documentation/display/trongate_css/cards-and-modals/working-with-cards), like so:
+Spinner elements often appear when content is being loaded via Ajax requests.  Often, they'll be used inside [dynamic modal elements](../../trongate_mx/0050UI_Enhancements/0079building_dynamic_modals.md) or [card elements](../0040cards_and_modals/0010working_with_cards.md), like so:
 
 Loading Content
 ```html
@@ -187,9 +187,9 @@ Processing Request
 ## Success & Failure Animations
 
 
-Trongate MX includes [success animations](documentation/display/trongate_mx/ui-enhancements/success-animations) and [error animations](documentation/display/trongate_mx/ui-enhancements/error-animations), which are automatically rendered after HTTP requests are triggered by Trongate MX.  Click the button below to see a demonstration of how 'success' or 'error' animations respond to user feedback.
+Trongate MX includes [success animations](../../trongate_mx/0050UI_Enhancements/0076success_animations.md) and [error animations](../../trongate_mx/0050UI_Enhancements/0077error_animations.md), which are automatically rendered after HTTP requests are triggered by Trongate MX.  Click the button below to see a demonstration of how 'success' or 'error' animations respond to user feedback.
 
 Test Feature
 
-Details about how this functionality works is beyond the scope of Trongate CSS documentation.  However, we recommend exploring the [Trongate MX Documentation](documentation/display/trongate_mx) for comprehensive details on this feature. In particular, we suggest reviewing the section on [UI Enhancements](documentation/display/trongate_mx/ui-enhancements).
+Details about how this functionality works is beyond the scope of Trongate CSS documentation.  However, we recommend exploring the [Trongate MX Documentation](../../trongate_mx) for comprehensive details on this feature. In particular, we suggest reviewing the section on [UI Enhancements](../../trongate_mx/0050UI_Enhancements).
 

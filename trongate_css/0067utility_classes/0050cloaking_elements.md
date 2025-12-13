@@ -139,7 +139,7 @@ Close Modal
 > [!TIP]
 > **Best Practices**
 >
-> For more information about this, please refer to our section on [Working With Modals](documentation/display/trongate_css/cards-and-modals/working-with-modals).
+> For more information about this, please refer to our section on [Working With Modals](../0040cards_and_modals/0020working_with_modals.md).
 
 
 ### Loading Indicators
@@ -168,6 +168,6 @@ Fetch Data
 > 
 > 
 > 
-> For the purposes of avoiding repetition, we won't cover that here.  However, if you are interested in learning more about Trongate's powerful front-end framework, we strongly encourage you to check out the [Trongate MX Documentation](documentation/display/trongate_mx).
+> For the purposes of avoiding repetition, we won't cover that here.  However, if you are interested in learning more about Trongate's powerful front-end framework, we strongly encourage you to check out the [Trongate MX Documentation](../../trongate_mx).
 
 

@@ -220,7 +220,7 @@ With this setup:
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Documentation pertaining to out of band swaps is available from [here](documentation/display/trongate_mx/swapping-content/out-of-band-swaps).
+> Documentation pertaining to out of band swaps is available from [here](../0030Swapping_Content/0060out_of_band_swaps.md).
 
 
 ## Polling State

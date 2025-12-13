@@ -10,7 +10,7 @@ This section explores scenarios where a module's 'controllers' directory contain
 > This page addresses a hypothetical edge case where it might be desirable to have multiple controller files within a single 'controllers' sub-directory.
 > 
 > 
-> Under normal operational conditions, however, it is generally preferable to separate PHP classes into distinct modules, adhering to a '**one class per module**' structure. It's worth noting that Trongate supports modular nesting, which allows the inclusion of modules within modules. This approach offers a more scalable and organized alternative compared to the methods described here. For more information, see the following chapter: [Modules Within Modules](documentation/display/php_framework/parent-and-child-modules).
+> Under normal operational conditions, however, it is generally preferable to separate PHP classes into distinct modules, adhering to a '**one class per module**' structure. It's worth noting that Trongate supports modular nesting, which allows the inclusion of modules within modules. This approach offers a more scalable and organized alternative compared to the methods described here. For more information, see the following chapter: [Modules Within Modules](../0084Parent_And_Child_Modules).
 
 
 ## Step 1: Creating an Additional PHP Class
@@ -40,7 +40,7 @@ class Greeting {
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> **Note:** The example provided omits elements such as type hinting, return types, visibility modifiers (public, private, protected), and doc blocks for brevity. These are essential for production code to ensure clarity, type safety, and proper documentation. For additional information, please refer to the Trongate framework's [Coding Style Guide](documentation/display/php_framework/basic-concepts/regarding-coding-style).
+> **Note:** The example provided omits elements such as type hinting, return types, visibility modifiers (public, private, protected), and doc blocks for brevity. These are essential for production code to ensure clarity, type safety, and proper documentation. For additional information, please refer to the Trongate framework's [Coding Style Guide](../0030Basic_Concepts/0010regarding_coding_style.md).
 
 
 

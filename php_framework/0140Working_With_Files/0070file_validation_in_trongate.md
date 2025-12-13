@@ -72,7 +72,7 @@ Below is a table summarizing all the available validation tests for file uploads
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> More information pertaining to Trongate's in-build validation tests is available from the [Validation Rules Reference](documentation/display/php_framework/form-handling/validation-rules-reference).
+> More information pertaining to Trongate's in-build validation tests is available from the [Validation Rules Reference](../0130Form_Handling/0017validation_rules_reference.md).
 
 
 > [!TIP]

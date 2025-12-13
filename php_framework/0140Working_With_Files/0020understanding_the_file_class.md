@@ -23,7 +23,7 @@ try {
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> In the above example, the `APPPATH` constant is used to return the absolute file path of the application's root directory.  Additional information about this and other helpful features are available [from here](documentation/display/php_framework/helpers-explained/other-helpful-features).
+> In the above example, the `APPPATH` constant is used to return the absolute file path of the application's root directory.  Additional information about this and other helpful features are available [from here](../0120Helpers_Explained/0080other_helpful_features.md).
 > 
 > 
 > The example also uses Trongate's out() function to remove potentially dangerous characters from rendered output.

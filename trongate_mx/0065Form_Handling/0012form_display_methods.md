@@ -83,7 +83,7 @@ Here's how you can accomplish the same using standard HTML:
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Full documentation on how to build dynamic modals, with Trongate MX, is available [here](documentation/display/trongate_mx/ui-enhancements/building-dynamic-modals).
+> Full documentation on how to build dynamic modals, with Trongate MX, is available [here](../0050UI_Enhancements/0079building_dynamic_modals.md).
 
 
 

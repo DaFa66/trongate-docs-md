@@ -90,7 +90,7 @@ Control form width by wrapping your form in one of Trongate's container classes:
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> For additional information about containers, see our documentation for [Container Classes](documentation/display/trongate_css/css-fundamentals/container-classes).
+> For additional information about containers, see our documentation for [Container Classes](../0020css_fundamentals/0030container_classes.md).
 
 
 ## Label Spans

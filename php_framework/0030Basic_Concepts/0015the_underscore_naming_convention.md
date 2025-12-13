@@ -29,7 +29,7 @@ $this->module_b->greeting();
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Information regarding how modules can load and use *other* modules is provided within the, [Modules Calling Modules](documentation/display/php_framework/modules-calling-modules) chapter of this documentation.
+> Information regarding how modules can load and use *other* modules is provided within the, [Modules Calling Modules](../0080Modules_Calling_Modules) chapter of this documentation.
 
 
 
@@ -56,6 +56,6 @@ Without this convention, developers would need to rely on additional configurati
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> More information pertaining to this topic is offered [here](documentation/display/php_framework/understanding-routing/securing-methods-from-url-access).
+> More information pertaining to this topic is offered [here](../0040Understanding_Routing/0050securing_methods_from_url_access.md).
 
 

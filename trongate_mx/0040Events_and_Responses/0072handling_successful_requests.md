@@ -7,7 +7,7 @@ The `mx-on-success` attribute lets you trigger elements after an HTTP request ha
 > The `mx-on-success` attribute (which happens to be the focus of this page) is designed for reinitialising elements, **not** for executing custom JavaScript!
 > 
 > 
-> To execute your own custom JavaScript code after an HTTP request, use the `mx-after-swap` attribute. You can find the relevant documentation [here](documentation/display/trongate_mx/swapping-content/after-swap-operations).
+> To execute your own custom JavaScript code after an HTTP request, use the `mx-after-swap` attribute. You can find the relevant documentation [here](../0030Swapping_Content/0064after_swap_operations.md).
 
 
 ## Syntax
@@ -29,7 +29,7 @@ When Trongate MX completes an AJAX request successfully, here's what happens:
 1. Trongate MX checks the element (that invoked the HTTP request) for an `mx-on-success` attribute.
 2. If an `mx-on-success` attribute is found, the value that has been assigned to the attribute is read.
 3. Trongate MX identifies an element whose CSS selector matches the value of `mx-on-success`.
-4. Any [HTTP requests  tied to the target element](documentation/display/trongate_mx/core-http-operations/http-methods-in-trongate-mx) are triggered, reinitialising it.
+4. Any [HTTP requests  tied to the target element](../0020Core_HTTP_Operations/0030http_methods_in_trongate_mx.md) are triggered, reinitialising it.
 
 
 This makes it easy to refresh multiple, dynamic sections of your application or set up chained actions.
@@ -175,7 +175,7 @@ From this, we now know that as soon as the page loads, a GET request will be mad
 > [!TIP]
 > **Best Practices**
 >
-> If the behaviour of the #order-summary element is confusing, you are encouraged to refer to our section on [Triggers In Trongate MX](documentation/display/trongate_mx/events-and-responses/triggers-in-trongate-mx).
+> If the behaviour of the #order-summary element is confusing, you are encouraged to refer to our section on [Triggers In Trongate MX](0070triggers_in_trongate_mx.md).
 
 
 

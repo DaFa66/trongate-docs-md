@@ -149,6 +149,6 @@ Whether you’re building a simple website or a large-scale, complex web applica
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> For more information on how to work with Trongate's dynamic module loading system please refer to the chapter, [Modules Calling Modules](documentation/display/php_framework/modules-calling-modules).
+> For more information on how to work with Trongate's dynamic module loading system please refer to the chapter, [Modules Calling Modules](../0080Modules_Calling_Modules).
 
 

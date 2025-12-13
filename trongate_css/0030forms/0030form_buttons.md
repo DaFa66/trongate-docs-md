@@ -61,7 +61,7 @@ Confirm ActionProceed with CautionDelete ItemCancel Action
 ## Button Sizes
 
 
-Buttons can be sized using Trongate's [size classes](documentation/display/trongate_css/utility-classes/size-classes):
+Buttons can be sized using Trongate's [size classes](../0067utility_classes/0010size_classes.md):
 
 Extra SmallSmall ButtonNormal ButtonLarge ButtonExtra Large
 ```html

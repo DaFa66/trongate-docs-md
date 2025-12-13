@@ -201,6 +201,6 @@ echo out($email);
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> More details pertaining to the out() function are available from [here](documentation/display/php_framework/form-handling/best-practices-for-handling-data).
+> More details pertaining to the out() function are available from [here](../0130Form_Handling/0600best_practices_for_handling_data.md).
 
 

@@ -186,6 +186,6 @@ By effectively utilizing these validation error display techniques, you can crea
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> For those aiming to give users an even better experience, please check out [Trongate MX](documentation/display/trongate_mx) - Trongate's new front-end framework. Trongate MX gives Trongate developers the ability  to build extremely sophisticated and fully interactive forms, **without writing any JavaScript**. All of this is covered in the [Form Handling](documentation/display/trongate_mx/form-handling) chapter.
+> For those aiming to give users an even better experience, please check out [Trongate MX](../../trongate_mx) - Trongate's new front-end framework. Trongate MX gives Trongate developers the ability  to build extremely sophisticated and fully interactive forms, **without writing any JavaScript**. All of this is covered in the [Form Handling](../../trongate_mx/0065Form_Handling) chapter.
 
 

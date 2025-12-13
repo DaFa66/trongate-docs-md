@@ -22,7 +22,7 @@ By using partials, you can maintain a consistent design across your application 
 > While Trongate *does* support partials, this feature has been included primarily to accommodate developers who are accustomed to their use in other frameworks. We understand that transitioning to alternative methodologies can sometimes be challenging, but rest assured, there are other approaches that can be equally effective and more suited to modern development practices.
 > 
 > 
-> For those seeking alternatives to partials, Trongate offers the option to [load entire modules directly from view files or templates](documentation/display/php_framework/modules-calling-modules/loading-modules-from-views).
+> For those seeking alternatives to partials, Trongate offers the option to [load entire modules directly from view files or templates](../0080Modules_Calling_Modules/0020loading_modules_from_views.md).
 
 
 ## How to Use Partials

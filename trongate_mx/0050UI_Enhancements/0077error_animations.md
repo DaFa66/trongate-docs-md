@@ -126,7 +126,7 @@ If you'd rather work directly with HTML, here's the code:
 ```
 
 > [!CAUTION]
-> Building web applications using pure HTML forms introduces potential security risks.  For more details, refer to our documentation pertaining to [CSRF Protection](documentation/display/trongate_mx/trongate-mx-security/csrf-protection)
+> Building web applications using pure HTML forms introduces potential security risks.  For more details, refer to our documentation pertaining to [CSRF Protection](../0076Trongate_MX_Security/0079csrf_protection.md)
 > 
 > 
 > If in doubt, use Trongate's form helper functions whenever possible.

@@ -162,7 +162,7 @@ You can align cell content using text alignment classes:
 ## Status-Based Row Colors
 
 
-Inside of defining a brand new color/class for table rows, you can also access pre-existing [CSS variables](documentation/display/trongate_css/css-fundamentals/css-variables) to create status-based row colors.  This technique guarantees that your table row styling is kept in alignment with underlying CSS variables.  For example:
+Inside of defining a brand new color/class for table rows, you can also access pre-existing [CSS variables](../0020css_fundamentals/0010css_variables.md) to create status-based row colors.  This technique guarantees that your table row styling is kept in alignment with underlying CSS variables.  For example:
 
 | Order ID | Customer | Status |
 | ---|---|---|

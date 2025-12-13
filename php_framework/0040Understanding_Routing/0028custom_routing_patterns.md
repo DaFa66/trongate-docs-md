@@ -1,7 +1,7 @@
 # Custom Routing Patterns
 
 
-As discussed [previously](documentation/display/php_framework/understanding-routing/introducing-custom-url-routing), custom routing is handled via the initialization of a `$routes` array within the file, 'custom_routing.php'.
+As discussed [previously](0026introducing_custom_url_routing.md), custom routing is handled via the initialization of a `$routes` array within the file, 'custom_routing.php'.
 
 ```
 config/ 

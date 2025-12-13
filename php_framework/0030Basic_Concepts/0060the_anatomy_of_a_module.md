@@ -20,6 +20,6 @@ A Trongate module is typically organized into three primary directories, each se
 > To facilitate secure and efficient database interactions, all Trongate modules can utilize a centralized 'Model' PHP class. This class resides within the Trongate framework's 'engine' directory, rather than within individual modules. Centralizing the model simplifies maintenance, enhances security, and ensures consistent database interactions across all modules.
 > 
 > 
-> For more information regarding Trongate's [Model class](documentation-ref/list_refs/class_reference/the-model-class), please refer to the [Database Operations](documentation/display/php_framework/database-operations) chapter.
+> For more information regarding Trongate's [Model class](documentation-ref/list_refs/class_reference/the-model-class), please refer to the [Database Operations](../0088Database_operations) chapter.
 
 

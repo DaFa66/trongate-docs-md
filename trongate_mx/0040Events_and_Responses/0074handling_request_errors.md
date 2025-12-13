@@ -9,7 +9,7 @@ The `mx-on-error` attribute in Trongate MX lets you specify which elements shoul
 > The `mx-on-error` attribute (which happens to be the focus of this page) is designed for triggering elements, **not** for executing custom JavaScript!
 > 
 > 
-> To execute your own custom JavaScript code after an HTTP request, use the `mx-after-swap` attribute. You can find the relevant documentation [here](documentation/display/trongate_mx/swapping-content/after-swap-operations).
+> To execute your own custom JavaScript code after an HTTP request, use the `mx-after-swap` attribute. You can find the relevant documentation [here](../0030Swapping_Content/0064after_swap_operations.md).
 
 
 ## Syntax
@@ -56,7 +56,7 @@ The code sample below demonstrates a form that posts data to an API endpoint.  W
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Usually, if a form is submitted - and something goes wrong - it'll be appropriate to display [form validation errors](documentation/display/trongate_mx/form-handling/form-validation-and-error-handling). **That's not what's happening here!**
+> Usually, if a form is submitted - and something goes wrong - it'll be appropriate to display [form validation errors](../0065Form_Handling/0016form_validation_and_error_handling.md). **That's not what's happening here!**
 > 
 > 
 > In our example, the assumption is that we have a more sophistated error message to display when things go wrong.  For example, let's imagine a user is enrolling to join a course.  Let's further assume that - at the last moment - somebody else has enrolled and there are no more spaces left!
@@ -68,11 +68,11 @@ The code sample below demonstrates a form that posts data to an API endpoint.  W
 > In the error message, we might explain that there are no more spaces left and we may wish to give the user an opportunity to join a waiting list so that they can be kept informed of future courses or even cancellations.
 > 
 > 
-> For information on how to render form validation errors with Trongate MX, [click here](documentation/display/trongate_mx/form-handling/form-validation-and-error-handling).
+> For information on how to render form validation errors with Trongate MX, [click here](../0065Form_Handling/0016form_validation_and_error_handling.md).
 
 
 
-The code sample above uses pure HTML.  Below is a [more secure](documentation/display/trongate_mx/trongate-mx-security/csrf-protection)  solution that uses Trongate's form helper functions:
+The code sample above uses pure HTML.  Below is a [more secure](../0076Trongate_MX_Security/0079csrf_protection.md)  solution that uses Trongate's form helper functions:
 
 ```vf
 <?php
@@ -110,7 +110,7 @@ echo form_close();
 > [!TIP]
 > **Best Practices**
 >
-> Consider using in combination with `mx-trigger="activate"`.  Without this attribute, the element may respond to both user events AND programmatic triggers, which might not be what you want.  For more information on this topic, refer to our documentation on [Triggers in Trongate MX](documentation/display/trongate_mx/events-and-responses/triggers-in-trongate-mx).
+> Consider using in combination with `mx-trigger="activate"`.  Without this attribute, the element may respond to both user events AND programmatic triggers, which might not be what you want.  For more information on this topic, refer to our documentation on [Triggers in Trongate MX](0070triggers_in_trongate_mx.md).
 
 
 ## Error Handling with Out-of-Band Swaps

@@ -59,7 +59,7 @@ class Members extends Trongate {
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> [Custom URL routing](documentation/display/php_framework/understanding-routing/introducing-custom-url-routing) will override automatic routing. If you have defined a custom route for a URL, *that* will take precedence over the automatic routing rules described here.
+> [Custom URL routing](0026introducing_custom_url_routing.md) will override automatic routing. If you have defined a custom route for a URL, *that* will take precedence over the automatic routing rules described here.
 
 
 ## In Summary

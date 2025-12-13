@@ -65,7 +65,7 @@ The code above is the first line of a method named 'roll' within the Dice class.
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> **Note:** For brevity, the example provided omits elements such as type hinting, return types, visibility modifiers (public, private, protected), and doc blocks. These are essential for production code to ensure clarity, type safety, and proper documentation. For additional information on this topic, please refer to the Trongate framework's [coding style guide](documentation/display/php_framework/basic-concepts/regarding-coding-style).
+> **Note:** For brevity, the example provided omits elements such as type hinting, return types, visibility modifiers (public, private, protected), and doc blocks. These are essential for production code to ensure clarity, type safety, and proper documentation. For additional information on this topic, please refer to the Trongate framework's [coding style guide](../0030Basic_Concepts/0010regarding_coding_style.md).
 
 
 ### Method Functionality
@@ -128,7 +128,7 @@ This URL structure would cause the 'roll' method to be invoked, generating a ran
 ## URL Mapping and Routing
 
 
-The URL provided adheres to Trongate's [rules for automatic URL routing](documentation/display/php_framework/understanding-routing/automatic-url-routing). In the example above:
+The URL provided adheres to Trongate's [rules for automatic URL routing](../0040Understanding_Routing/0020automatic_url_routing.md). In the example above:
 
 
 - The first URL segment, `dice`, maps to a class named 'Dice'. This class is part of a module also named 'dice'.

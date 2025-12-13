@@ -268,7 +268,7 @@ Note: The `[random_token]` placeholder represents a dynamically generated CSRF t
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> A full explanation of how Trongate's in-built CSRF protection works - under the hood - can be found in the [Trongate MX Guide](documentation/display/trongate_mx/trongate-mx-security/csrf-protection).
+> A full explanation of how Trongate's in-built CSRF protection works - under the hood - can be found in the [Trongate MX Guide](../../trongate_mx/0076Trongate_MX_Security/0079csrf_protection.md).
 
 
 

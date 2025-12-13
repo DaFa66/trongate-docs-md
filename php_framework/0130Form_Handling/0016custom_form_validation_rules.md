@@ -47,7 +47,7 @@ $this->validation->set_rules('last_name', 'last name', 'required|min_length[2]|m
 > [!TIP]
 > **Best Practices**
 >
-> While it's not required, it's recommended to adhere to Trongate's [Underscore Naming Convention](documentation/display/php_framework/basic-concepts/the-underscore-naming-convention) whenever creating custom methods.
+> While it's not required, it's recommended to adhere to Trongate's [Underscore Naming Convention](../0030Basic_Concepts/0015the_underscore_naming_convention.md) whenever creating custom methods.
 
 
 ## Creating a Custom Validation Method

@@ -313,7 +313,7 @@ Here's the source code:
 ```
 
 > [!WARNING]
-> To make the above example work, you'll have to [load Trongate MX](documentation/display/trongate_mx/introduction/trongate-mx-quick-start) onto your webpage.
+> To make the above example work, you'll have to [load Trongate MX](../../trongate_mx/0010Introduction/0020trongate_mx_quick_start.md) onto your webpage.
 
 
 > [!TIP]
@@ -322,6 +322,6 @@ Here's the source code:
 > The example above is an attempt to introduce you to the general topic of dynamic modal generation.   Full instructions and guidance, pertaining to dynamic modal generation, is beyond the scope of the 'Trongate CSS' documentation.
 > 
 > 
-> If dynamic modal generation and advanced front-end development, with Trongate, is something you'd like to learn more about, please refer to the [Trongate MX Documentation](documentation/display/trongate_mx/ui-enhancements/building-dynamic-modals).
+> If dynamic modal generation and advanced front-end development, with Trongate, is something you'd like to learn more about, please refer to the [Trongate MX Documentation](../../trongate_mx/0050UI_Enhancements/0079building_dynamic_modals.md).
 
 

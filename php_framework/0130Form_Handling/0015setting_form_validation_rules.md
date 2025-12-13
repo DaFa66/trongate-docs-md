@@ -185,7 +185,7 @@ While the array-based syntax requires more lines of code, it offers a more organ
 > ```
 > 
 > 
-> In situations where it's not acceptable to fetch posted values - after validation - using `post($str, true)`, it's advisable to consider using  [custom validation](documentation/display/php_framework/form-handling/custom-form-validation-rules). This ensures that your validation rules can properly account for any special data handling requirements.
+> In situations where it's not acceptable to fetch posted values - after validation - using `post($str, true)`, it's advisable to consider using  [custom validation](0016custom_form_validation_rules.md). This ensures that your validation rules can properly account for any special data handling requirements.
 
 
 ## Key Points Regarding Setting Validation Rules

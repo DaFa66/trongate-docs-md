@@ -74,7 +74,7 @@ Example Modal
 This is an example modal. It has a default margin top value of '12vh', which is defined as a CSS variable within Trongate CSS.
 
 
-To learn more about working with modals  [click here](documentation/display/trongate_css/cards-and-modals/working-with-modals).
+To learn more about working with modals  [click here](../0040cards_and_modals/0020working_with_modals.md).
 Learn More **
 ```css
 @media screen and (max-width: 550px) {
@@ -92,7 +92,7 @@ Learn More **
 > [!TIP]
 > **Best Practices**
 >
-> To learn more about how to create dynamic modals, please refer to our [Trongate MX documentation](documentation/display/trongate_mx).  From there, you'll be able to view an entire section on the subject of [Building Dynamic Modals](documentation/display/trongate_mx/ui-enhancements/building-dynamic-modals).
+> To learn more about how to create dynamic modals, please refer to our [Trongate MX documentation](../../trongate_mx).  From there, you'll be able to view an entire section on the subject of [Building Dynamic Modals](../../trongate_mx/0050UI_Enhancements/0079building_dynamic_modals.md).
 
 
 ### Button Container Behavior

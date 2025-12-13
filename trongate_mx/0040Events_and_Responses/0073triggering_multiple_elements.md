@@ -1,7 +1,7 @@
 # Triggering Multiple Elements
 
 
-The [previous page](documentation/display/trongate_mx/events-and-responses/handling-successful-requests) covered how to update/trigger **one element** after a successful HTTP request has been made.   This was achieved by using the `mx-on-success` attribute.
+The [previous page](0072handling_successful_requests.md) covered how to update/trigger **one element** after a successful HTTP request has been made.   This was achieved by using the `mx-on-success` attribute.
 
 
 With `mx-on-success` it's also possible to trigger *multiple* elements by separating their selectors with spaces. Here's an example:
@@ -60,7 +60,7 @@ For those who prefer to work with pure HTML, here's an alternative syntax that p
 > [!TIP]
 > **Best Practices**
 >
-> You may have noticed that in the examples shown, the elements to be [triggered](documentation/display/trongate_mx/events-and-responses/triggers-in-trongate-mx)  have all been given the attribute, `mx-trigger="activate"`.
+> You may have noticed that in the examples shown, the elements to be [triggered](0070triggers_in_trongate_mx.md)  have all been given the attribute, `mx-trigger="activate"`.
 > 
 > 
 > The reason for this is to prevent default trigger behaviour from activating the target elements. By adding `mx-trigger="activate"`, we are effectively saying, "This element should *only* be activated when it is programmatically triggered by another element."

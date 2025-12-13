@@ -1,10 +1,10 @@
 # Code Distribution and Management
 
 
-Trongate developers can use [Packagist](documentation/display/php_framework/controllers/using-packagist-with-trongate) for sharing code, just as with other PHP frameworks. However, Trongate modules are designed to be entirely self-contained, enabling seamless distribution without reliance on external platforms. This means modules can be copied directly from one project and pasted into another, making them highly portable and easy to integrate.
+Trongate developers can use [Packagist](../0050Controllers/0050using_packagist_with_trongate.md) for sharing code, just as with other PHP frameworks. However, Trongate modules are designed to be entirely self-contained, enabling seamless distribution without reliance on external platforms. This means modules can be copied directly from one project and pasted into another, making them highly portable and easy to integrate.
 
 
-If a module includes an SQL file, Trongate activates a built-in **Module Import Wizard**. This wizard prompts the user to import SQL code with a single click, ensuring smooth integration of modules that depend on database structures. For more details, see the [Module Import Wizard chapter](documentation/display/php_framework/the-module-import-wizard).
+If a module includes an SQL file, Trongate activates a built-in **Module Import Wizard**. This wizard prompts the user to import SQL code with a single click, ensuring smooth integration of modules that depend on database structures. For more details, see the [Module Import Wizard chapter](../0170The_Module_Import_Wizard).
 
 ## Self-Contained Modules: A Key Strength
 

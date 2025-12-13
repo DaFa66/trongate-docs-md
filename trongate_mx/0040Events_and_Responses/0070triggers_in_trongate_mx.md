@@ -160,10 +160,10 @@ For an HTML-only approach, here's the corresponding code:
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Documentation covering the `mx-on-success` attribute is available [from here](documentation/display/trongate_mx/events-and-responses/handling-successful-requests).
+> Documentation covering the `mx-on-success` attribute is available [from here](0072handling_successful_requests.md).
 > 
 > 
-> Documentation covering the `mx-on-error` attribute is available [from here](documentation/display/trongate_mx/events-and-responses/handling-request-errors).
+> Documentation covering the `mx-on-error` attribute is available [from here](0074handling_request_errors.md).
 
 
 ## Disabling Triggers
@@ -191,7 +191,7 @@ function fetchDataProgrammatically() {
 This approach is particularly useful in these scenarios:
 
 
-1. **Elements with polling**: When you want to [control polling programmatically](documentation/display/trongate_mx/advanced-features/polling-with-trongate-mx) without having the element respond to user clicks
+1. **Elements with polling**: When you want to [control polling programmatically](../0070Advanced_Features/0079polling_with_trongate_mx.md) without having the element respond to user clicks
 2. **Hidden elements**: For elements that contain API configuration but shouldn't trigger requests when clicked
 3. **Containers with complex content**: For containers that have clickable children but shouldn't trigger requests when the container itself is clicked
 

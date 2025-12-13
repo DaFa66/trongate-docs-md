@@ -67,7 +67,7 @@ This simple markup creates a form that:
 In Trongate MX, if `mx-post` is used alongside `action` and `method` properties (within a form opening tag), the `mx-post` attribute takes precedence.
 
 
-To learn more about the `mx-post` attribute, [click here](documentation/display/trongate_mx/core-http-operations/http-methods-in-trongate-mx).
+To learn more about the `mx-post` attribute, [click here](../0020Core_HTTP_Operations/0030http_methods_in_trongate_mx.md).
 
 ## An Enhancement, Not a Replacement
 
