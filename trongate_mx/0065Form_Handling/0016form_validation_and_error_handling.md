@@ -111,14 +111,14 @@ Here's an example of a basic HTML template ready to work with Trongate MX:
 ```
 
 > [!WARNING]
-> When using Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) for form validation, ensure your forms are closed with:
+> When using Trongate's [Validation class](../../reference/class_reference/The_Validation_Class) for form validation, ensure your forms are closed with:
 > 
 > ```vf
 > echo form_close();
 > ```
 > 
 > 
-> This is essential because Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) automatically applies CSRF protection to all incoming requests. Using form_close() *not only* generates a closing form tag but also creates the necessary security token required for Trongate's CSRF protection mechanisms.
+> This is essential because Trongate's [Validation class](../../reference/class_reference/The_Validation_Class) automatically applies CSRF protection to all incoming requests. Using form_close() *not only* generates a closing form tag but also creates the necessary security token required for Trongate's CSRF protection mechanisms.
 > 
 > 
 > Failing to use form_close() will result in rejected requests due to Trongate's stringent security protocols.
@@ -139,7 +139,7 @@ Ask yourself:
 Even for an experienced developer, building such functionality would almost certainly take several hours or would require depending upon third-party libraries.
 
 
-What truly sets Trongate MX apart is that it allows you to leverage Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class), security features, and form helpers - all out of the box. *Not only* can you build beautiful, highly interactive single-page applications without writing JavaScript, but you can also do so *without* relying on any third-party libraries!
+What truly sets Trongate MX apart is that it allows you to leverage Trongate's [Validation class](../../reference/class_reference/The_Validation_Class), security features, and form helpers - all out of the box. *Not only* can you build beautiful, highly interactive single-page applications without writing JavaScript, but you can also do so *without* relying on any third-party libraries!
 
 ## And there's more!
 

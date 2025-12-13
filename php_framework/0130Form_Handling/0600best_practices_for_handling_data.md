@@ -59,7 +59,7 @@ Escape data when rendering it to the user, ensuring it's safe for the intended c
 ### 4. Use Trongate's Model Class
 
 
-The Trongate framework has a built-in [Model class](documentation-ref/list_refs/class_reference/the-model-class) that has been designed for safe and effortless database interaction. If you use the Model class, you'll never have to worry about SQL injection attacks!
+The Trongate framework has a built-in [Model class](../../reference/class_reference/The_Model_Class) that has been designed for safe and effortless database interaction. If you use the Model class, you'll never have to worry about SQL injection attacks!
 
 
 ---
@@ -82,7 +82,7 @@ The `out()` function supports the following output formats:
 ### When To Use out()
 
 
-It's important to know when to use the `out()` function. Trongate's built-in helpers, such as form_input(), already handle escaping for you when generating form elements.  This means that there is no need to use `out()` when rendering form elements by usage of Trongate's  [form helper functions](documentation-ref/list_refs/helpers/form-helpers).  However, in other contexts, you should use the `out()` function, especially when manually outputting user-submitted data. Examples include:
+It's important to know when to use the `out()` function. Trongate's built-in helpers, such as form_input(), already handle escaping for you when generating form elements.  This means that there is no need to use `out()` when rendering form elements by usage of Trongate's  [form helper functions](../../reference/helpers/Form_Helpers).  However, in other contexts, you should use the `out()` function, especially when manually outputting user-submitted data. Examples include:
 
 
 - Displaying dynamic content directly in an HTML document
@@ -164,7 +164,7 @@ public function submit(): void {
 > Full documentation regarding Trongate's Model class is offered in the [Database Operations](../0088Database_operations) chapter.
 > 
 > 
-> In addition, all of the methods available within Trongate's Model class are detailed in the [API Reference Guide](documentation-ref/list_refs/class_reference/the-model-class).
+> In addition, all of the methods available within Trongate's Model class are detailed in the [API Reference Guide](../../reference/class_reference/The_Model_Class).
 
 
 ## In Summary

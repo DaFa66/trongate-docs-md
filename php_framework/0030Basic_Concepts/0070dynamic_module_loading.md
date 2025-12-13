@@ -19,11 +19,11 @@ $this->module('trongate_security');
 ```
 
 
-This method delegates the loading process to the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class), which handles the instantiation and attachment of the module to your controller.
+This method delegates the loading process to the [Modules class](../../reference/class_reference/The_Modules_Class), which handles the instantiation and attachment of the module to your controller.
 
 
 2. **Dynamic Property Attachment:**
-Once a module is loaded, it is dynamically attached to the [Trongate](documentation-ref/list_refs/class_reference/the-trongate-class) instance as a property. For example, after calling `$this->module('trongate_security');`, the [Trongate Security](documentation-ref/list_refs/pre_installed/trongate-security) module becomes accessible via `$this->trongate_security`.
+Once a module is loaded, it is dynamically attached to the [Trongate](../../reference/class_reference/The_Trongate_Class) instance as a property. For example, after calling `$this->module('trongate_security');`, the [Trongate Security](../../reference/pre_installed/trongate_security) module becomes accessible via `$this->trongate_security`.
 
 
 3. **Using the Module:**
@@ -49,16 +49,16 @@ To truly understand the power of Trongate’s dynamic module loading, let’s ta
 ### The Role of the module() Method
 
 
-The module() method in the [Trongate class](documentation-ref/list_refs/class_reference/the-trongate-class) acts as a bridge between your controller and the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class). When you call `$this->module('trongate_security');`, the following happens:
+The module() method in the [Trongate class](../../reference/class_reference/The_Trongate_Class) acts as a bridge between your controller and the [Modules class](../../reference/class_reference/The_Modules_Class). When you call `$this->module('trongate_security');`, the following happens:
 
 
-1. The module() method creates an instance of the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class):
+1. The module() method creates an instance of the [Modules class](../../reference/class_reference/The_Modules_Class):
 ```php
 $modules = new Modules;
 ```
 
 
-2. It then calls the load() method of the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class), passing the name of the module to be loaded:
+2. It then calls the load() method of the [Modules class](../../reference/class_reference/The_Modules_Class), passing the name of the module to be loaded:
 ```php
 $modules->load($target_module);
 ```
@@ -68,7 +68,7 @@ $modules->load($target_module);
 ### The Role of the Modules Class
 
 
-The [Modules class](documentation-ref/list_refs/class_reference/the-modules-class) is responsible for dynamically loading and instantiating modules. Here’s how it works:
+The [Modules class](../../reference/class_reference/The_Modules_Class) is responsible for dynamically loading and instantiating modules. Here’s how it works:
 
 
 1. The load() method constructs the path to the module’s controller file based on the module name:
@@ -83,7 +83,7 @@ $this->modules[$target_module] = new $target_module($target_module);
 ```
 
 
-3. The instantiated module is stored in the `$modules` array within the [Modules class](documentation-ref/list_refs/class_reference/the-modules-class), ensuring that it can be reused if needed. This caching mechanism prevents redundant instantiations of the same module during a single request, improving performance.
+3. The instantiated module is stored in the `$modules` array within the [Modules class](../../reference/class_reference/The_Modules_Class), ensuring that it can be reused if needed. This caching mechanism prevents redundant instantiations of the same module during a single request, improving performance.
 
 ### The Role of the Dynamic_properties Trait
 
@@ -104,10 +104,10 @@ $this->modules[$target_module] = new $target_module($target_module);
 
 
 
-The `Dynamic_properties` trait enables the [Trongate class](documentation-ref/list_refs/class_reference/the-trongate-class) to handle properties that are not explicitly defined. Here’s how it works:
+The `Dynamic_properties` trait enables the [Trongate class](../../reference/class_reference/The_Trongate_Class) to handle properties that are not explicitly defined. Here’s how it works:
 
 
-1. When a module is loaded, the `Dynamic_properties` trait allows the module to be dynamically attached to the [Trongate](documentation-ref/list_refs/class_reference/the-trongate-class) instance as a property. For example:
+1. When a module is loaded, the `Dynamic_properties` trait allows the module to be dynamically attached to the [Trongate](../../reference/class_reference/The_Trongate_Class) instance as a property. For example:
 ```php
 $this->trongate_security = new Trongate_Security('trongate_security');
 ```
@@ -121,7 +121,7 @@ $this->trongate_security->_make_sure_allowed();
 
 
 
-The `Dynamic_properties` trait is essential for enabling this flexibility, as it allows properties like `$this->trongate_security` to be added dynamically without requiring explicit declarations in the [Trongate class](documentation-ref/list_refs/class_reference/the-trongate-class).
+The `Dynamic_properties` trait is essential for enabling this flexibility, as it allows properties like `$this->trongate_security` to be added dynamically without requiring explicit declarations in the [Trongate class](../../reference/class_reference/The_Trongate_Class).
 
 
 ---

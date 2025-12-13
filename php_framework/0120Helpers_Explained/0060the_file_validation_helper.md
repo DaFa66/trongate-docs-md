@@ -85,7 +85,7 @@ The form_file_select method displays a form file uploader field. As you can see,
 > - attributes
 > 
 > 
-> What these two attributes represent and how they behave is identical to how ordinary form_input() methods work. See the [Form Helpers API Reference](documentation-ref/list_refs/helpers/form-helpers) for details.
+> What these two attributes represent and how they behave is identical to how ordinary form_input() methods work. See the [Form Helpers API Reference](../../reference/helpers/Form_Helpers) for details.
 
 
 

@@ -1,7 +1,7 @@
 # File Handling with Trongate
 
 
-Trongate provides robust support for file handling and image manipulation through its built-in [File](documentation-ref/list_refs/class_reference/the-file-class) and [Image](documentation-ref/list_refs/class_reference/the-image-class) classes. These classes are designed to make file operations secure, efficient, and easy to manage. Whether you need to upload files, resize images, or perform other file-related tasks, Trongate has you covered.
+Trongate provides robust support for file handling and image manipulation through its built-in [File](../../reference/class_reference/The_File_Class) and [Image](../../reference/class_reference/The_Image_Class) classes. These classes are designed to make file operations secure, efficient, and easy to manage. Whether you need to upload files, resize images, or perform other file-related tasks, Trongate has you covered.
 
 ## File Class
 

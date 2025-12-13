@@ -1,7 +1,7 @@
 # Understanding The File Class
 
 
-The Trongate [File class](documentation-ref/list_refs/class_reference/the-file-class) provides a comprehensive suite of methods for efficient and secure file management within your application. This class supports functionalities like uploading, deleting, reading, writing files, and managing directories. Access restrictions are in place to prevent unauthorized access to critical directories such as 'config', 'engine', and 'templates', as well as any files directly under the root application level (e.g., '.htaccess').
+The Trongate [File class](../../reference/class_reference/The_File_Class) provides a comprehensive suite of methods for efficient and secure file management within your application. This class supports functionalities like uploading, deleting, reading, writing files, and managing directories. Access restrictions are in place to prevent unauthorized access to critical directories such as 'config', 'engine', and 'templates', as well as any files directly under the root application level (e.g., '.htaccess').
 
 ## Getting Started
 

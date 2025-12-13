@@ -6,7 +6,7 @@ Form validation is a crucial aspect of web development, ensuring that user-submi
 ## Overview of Trongate's Validation System
 
 
-Trongate's validation system is designed to be intuitive and easy to use. It allows developers to define validation rules for form fields, automatically handle error messages, and ensure that only valid data is processed. The validation process is managed by the [Validation class](documentation-ref/list_refs/class_reference/the-validation-class), which provides methods for setting rules, running validation checks, and handling errors.
+Trongate's validation system is designed to be intuitive and easy to use. It allows developers to define validation rules for form fields, automatically handle error messages, and ensure that only valid data is processed. The validation process is managed by the [Validation class](../../reference/class_reference/The_Validation_Class), which provides methods for setting rules, running validation checks, and handling errors.
 
 ### Key Features of Trongate's Validation System
 

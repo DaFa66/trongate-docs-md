@@ -1,12 +1,12 @@
 # Custom Form Validation Rules
 
 
-In certain scenarios, you may need to implement form validation checks that go beyond the built-in rules provided by Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class). In such cases, **custom form validation callbacks** become invaluable.
+In certain scenarios, you may need to implement form validation checks that go beyond the built-in rules provided by Trongate's [Validation class](../../reference/class_reference/The_Validation_Class). In such cases, **custom form validation callbacks** become invaluable.
 
 ## General Concept
 
 
-When using Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) to apply form validation checks, the set_rules method plays a crucial role in defining the validation rules for specific form fields. For instance, the following code ensures that both the 'first_name' and 'last_name' fields must:
+When using Trongate's [Validation class](../../reference/class_reference/The_Validation_Class) to apply form validation checks, the set_rules method plays a crucial role in defining the validation rules for specific form fields. For instance, the following code ensures that both the 'first_name' and 'last_name' fields must:
 
 
 - Not be empty

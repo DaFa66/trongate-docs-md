@@ -112,7 +112,7 @@ When the form is submitted, the Validation class:
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Always use form_close() and Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) when working with forms in Trongate MX. These two elements provide automatic CSRF protection and helps prevent security vulnerabilities.
+> Always use form_close() and Trongate's [Validation class](../../reference/class_reference/The_Validation_Class) when working with forms in Trongate MX. These two elements provide automatic CSRF protection and helps prevent security vulnerabilities.
 
 
 ## Automatic Protection
@@ -150,10 +150,10 @@ While Trongate MX handles CSRF protection automatically, following these best pr
 > 
 > 
 > 1. A form has been submitted.
-> 2. Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) is being used to validate submitted form data.
+> 2. Trongate's [Validation class](../../reference/class_reference/The_Validation_Class) is being used to validate submitted form data.
 > 
 > 
-> Of course, it's possible that you may wish to have CSRF protection applied to endpoints that neither handle form submissions nor make use of Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class). For those kinds of situations, you'll have to write your own custom CSRF protection solution.
+> Of course, it's possible that you may wish to have CSRF protection applied to endpoints that neither handle form submissions nor make use of Trongate's [Validation class](../../reference/class_reference/The_Validation_Class). For those kinds of situations, you'll have to write your own custom CSRF protection solution.
 > 
 > 
 > Such a solution would involve generating a unique token for each session or request, storing it securely (e.g., in a session or a database), and ensuring that the token is sent along with requests that modify server-side data. You would then validate the token on the server before processing any sensitive actions to ensure that the request is legitimate and not forged.

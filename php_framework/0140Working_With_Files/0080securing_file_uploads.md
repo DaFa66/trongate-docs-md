@@ -8,7 +8,7 @@ Trongate provides a comprehensive suite of security features designed to ensure 
 ### File Validation
 
 
-Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) offers extensive control over allowed file types and characteristics. For example:
+Trongate's [Validation class](../../reference/class_reference/The_Validation_Class) offers extensive control over allowed file types and characteristics. For example:
 
 ```php
 $validation_str = 'allowed_types[gif,jpg,jpeg,png,webp]|max_size[2000]|max_width[1200]|max_height[1200]';

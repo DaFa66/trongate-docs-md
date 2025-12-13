@@ -6,7 +6,7 @@
 The Trongate framework provides a robust mechanism for fetching and validating user tokens, which is crucial for implementing secure authentication and authorization in your applications.
 
 
-Token validation is primarily handled by the [Trongate Tokens](documentation-ref/list_refs/pre_installed/trongate-tokens) module, specifically through the _attempt_get_valid_token() method. This method validates tokens based on their existence in the database, their expiration status, and—most importantly—their association with specific user levels.
+Token validation is primarily handled by the [Trongate Tokens](../../reference/pre_installed/trongate_tokens) module, specifically through the _attempt_get_valid_token() method. This method validates tokens based on their existence in the database, their expiration status, and—most importantly—their association with specific user levels.
 
 > [!NOTE]
 > **Just To Let You Know...**

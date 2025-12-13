@@ -1,7 +1,7 @@
 # Creating Forms
 
 
-Trongate contains a wide assortment of in-built [form helpers](documentation-ref/list_refs/helpers/form-helpers) to assist with form building. Form helpers are a set of PHP functions designed to simplify the process of creating and managing HTML forms within your application.
+Trongate contains a wide assortment of in-built [form helpers](../../reference/helpers/Form_Helpers) to assist with form building. Form helpers are a set of PHP functions designed to simplify the process of creating and managing HTML forms within your application.
 
 
 With Trongate, all form helpers are available immediately and with no requirement to load anything. There is also no need to update any configuration files if you want to use Trongate's form helpers. In short, they just work "out of the box".
@@ -9,7 +9,7 @@ With Trongate, all form helpers are available immediately and with no requiremen
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> A comprehensive list of Trongate's form helper functions is available from the [Trongate API Guide](documentation-ref/list_refs/helpers/form-helpers).
+> A comprehensive list of Trongate's form helper functions is available from the [Trongate API Guide](../../reference/helpers/Form_Helpers).
 
 
 ## Opening A Form
@@ -91,7 +91,7 @@ Having this code inside a view file will result in the following HTML being rend
 ## Rendering Form Elements
 
 
-Having produced a form opening tag, your next goal should be to render form elements such as form input fields. A full breakdown of all available form elements can be viewed [here](documentation-ref/list_refs/helpers/form-helpers). In the meantime, and for brevity, here are some commonly used form helpers that can be used to generate form elements.
+Having produced a form opening tag, your next goal should be to render form elements such as form input fields. A full breakdown of all available form elements can be viewed [here](../../reference/helpers/Form_Helpers). In the meantime, and for brevity, here are some commonly used form helpers that can be used to generate form elements.
 
 ### Input Fields
 
@@ -259,10 +259,10 @@ Note: The `[random_token]` placeholder represents a dynamically generated CSRF t
 > 
 > 
 > 1. The form_close() function has been used to render a form close tag
-> 2. The run(), within Trongate's [Validation class](documentation-ref/list_refs/class_reference/the-validation-class) has has been invoked
+> 2. The run(), within Trongate's [Validation class](../../reference/class_reference/The_Validation_Class) has has been invoked
 > 
 > 
-> Always use form_close(), and validate submitted form fields using the run() method from Trongate's [Validation](documentation-ref/list_refs/class_reference/the-validation-class) class, to ensure proper form closure and CSRF protection. This is especially important for forms that handle sensitive data.
+> Always use form_close(), and validate submitted form fields using the run() method from Trongate's [Validation](../../reference/class_reference/The_Validation_Class) class, to ensure proper form closure and CSRF protection. This is especially important for forms that handle sensitive data.
 
 
 > [!NOTE]

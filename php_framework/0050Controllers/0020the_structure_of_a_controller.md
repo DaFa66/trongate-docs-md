@@ -1,7 +1,7 @@
 # The Structure of a Controller
 
 
-Within the Trongate framework, controllers are PHP classes that extend the built-in [Trongate class](documentation-ref/list_refs/class_reference/the-trongate-class). Extending this foundational class provides controllers with immediate access to all of Trongate's core functionalities, such as form validation, database interactions, URL helpers, and more, enabling them to efficiently manage application logic and user interactions.
+Within the Trongate framework, controllers are PHP classes that extend the built-in [Trongate class](../../reference/class_reference/The_Trongate_Class). Extending this foundational class provides controllers with immediate access to all of Trongate's core functionalities, such as form validation, database interactions, URL helpers, and more, enabling them to efficiently manage application logic and user interactions.
 
 ## Naming Conventions
 

@@ -119,7 +119,7 @@ This automatic extraction removes the need for manually unpacking variables from
 Within your template files, use the display() method to specify where the view content should be inserted.
 
 
-The `display()` method is a [static method](https://www.w3schools.com/php/php_oop_static_methods.asp) that exists within Trongate's internal [Template class](documentation-ref/list_refs/class_reference/the-template-class).  Within a template file, this can be invoked with the following line of code:
+The `display()` method is a [static method](https://www.w3schools.com/php/php_oop_static_methods.asp) that exists within Trongate's internal [Template class](../../reference/class_reference/The_Template_Class).  Within a template file, this can be invoked with the following line of code:
 
 ```vf
 <?= Template::display($data) ?>

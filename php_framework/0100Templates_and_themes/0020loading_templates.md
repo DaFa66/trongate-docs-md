@@ -58,7 +58,7 @@ The load() method is responsible for:
 > [!NOTE]
 > **Just To Let You Know...**
 >
-> Trongate includes an internal class named [Template](documentation-ref/list_refs/class_reference/the-template-class) (singular), which will be discussed in more detail later in this chapter.  However, this is an entirely different class and the two should not be confused.
+> Trongate includes an internal class named [Template](../../reference/class_reference/The_Template_Class) (singular), which will be discussed in more detail later in this chapter.  However, this is an entirely different class and the two should not be confused.
 > 
 > 
 > To be clear, [Template](https://github.com/trongate/trongate-framework/blob/master/engine/Template.php) and [Templates](https://raw.githubusercontent.com/trongate/trongate-framework/refs/heads/master/templates/controllers/Templates.php) are two separate and distinct PHP classes within the Trongate framework.

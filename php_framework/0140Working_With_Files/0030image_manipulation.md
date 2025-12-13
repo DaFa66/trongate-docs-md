@@ -1,7 +1,7 @@
 # Image Manipulation
 
 
-The Trongate [Image class](documentation-ref/list_refs/class_reference/the-image-class) provides a comprehensive suite of methods for efficient and secure image manipulation within your application. This class supports functionalities like loading, resizing, and saving images. It uses PHP's GD library and supports JPEG, GIF, PNG, and WEBP image formats. Access restrictions are in place to prevent unauthorized access to critical directories such as 'config', 'engine', and 'templates', as well as any files directly under the root application level (e.g., '.htaccess').
+The Trongate [Image class](../../reference/class_reference/The_Image_Class) provides a comprehensive suite of methods for efficient and secure image manipulation within your application. This class supports functionalities like loading, resizing, and saving images. It uses PHP's GD library and supports JPEG, GIF, PNG, and WEBP image formats. Access restrictions are in place to prevent unauthorized access to critical directories such as 'config', 'engine', and 'templates', as well as any files directly under the root application level (e.g., '.htaccess').
 
 ## Getting Started
 
