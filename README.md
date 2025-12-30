@@ -11,7 +11,7 @@
 This repository provides the complete Trongate v1 documentation converted from HTML to clean, well-structured Markdown format. Designed for seamless integration with AI tools, vector databases, static site generators, and modern documentation workflows.
 
 > [!IMPORTANT]
-> **Trongate v2 is coming!** Scheduled launch: **6th January 2026** (subject to confirmation). The new version will feature revamped documentation. [Explore the beta →](https://github.com/trongate/trongate-v2-beta)
+> **Trongate v2 is coming!** Scheduled launch: **6th January 2026** (subject to confirmation). The new version will feature revamped documentation. [Explore the beta →](https://github.com/trongate/Trongate-v2-Dev)
 
 ---
 
@@ -143,7 +143,7 @@ Once Trongate v2 documentation is released, we plan to:
 - Leverage the new modular architecture for better documentation organisation
 
 > [!TIP]
-> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/trongate-v2-beta) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@GlasgowEqualizer).
+> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/Trongate-v2-Dev) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@GlasgowEqualizer).
 
 ---
 
@@ -341,7 +341,7 @@ Contributions are welcome! Here's how you can help:
 - **Official Documentation**: [trongate.io/documentation](https://trongate.io/documentation)
 - **Framework Repository**: [github.com/trongate/trongate-framework](https://github.com/trongate/trongate-framework)
 - **HTML Docs Source**: [github.com/trongate/trongate-docs](https://github.com/trongate/trongate-docs)
-- **Trongate v2 Beta**: [github.com/trongate/trongate-v2-beta](https://github.com/trongate/trongate-v2-beta)
+- **Trongate v2 Beta**: [github.com/trongate/Trongate-v2-Dev](https://github.com/trongate/Trongate-v2-Dev)
 
 ### Community Documentation Projects
 
