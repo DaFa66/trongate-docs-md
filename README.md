@@ -83,7 +83,7 @@ Creating multilingual sites with localised validation messages becomes a **3-min
 
 #### **Trongate MX Included**
 
-The powerful HTMX-style JavaScript library will be included by default (but optional to use).
+The powerful HTMX-style JavaScript library will be included by default (but is optional to use).
 
 #### **AI-Optimised Design**
 
@@ -91,7 +91,7 @@ With the tiny engine size, fully automated AI-driven web development becomes fea
 
 #### **Hyper-Optimised Performance**
 
-Extensive refactoring and optimisation work has produced remarkable results:
+Extensive refactoring and optimisation work have produced remarkable results:
 
 **Benchmark Results** (Apache Bench: 1000 requests, 100 concurrent):
 
@@ -103,7 +103,7 @@ Extensive refactoring and optimisation work has produced remarkable results:
 > [!NOTE]
 > These benchmarks were conducted on a **Windows 11** system with **PHP 8.4** and **Apache 2.4**. Results may vary based on your specific environment.
 
-![TGv2](https://ums.myds.me/images/TGv2.png)
+![TGv2](https://drive.google.com/file/d/1S7cKtB1OsktCgsmR-1VAKsz9b5ZBeIMv/view?usp=sharing)
 
 **Core Optimisations:**
 
@@ -130,7 +130,7 @@ Extensive refactoring and optimisation work has produced remarkable results:
 
 > _"Being able to customise/translate validation messages is going to be a huge plus, especially for non-English web applications."_ — Balazs
 
-> _"Other frameworks are becoming increasingly complex but Trongate is simplifying, speeding up and becoming more efficient than ever before."_ — Balazs
+> _"Other frameworks are becoming increasingly complex, but Trongate is simplifying, speeding up and becoming more efficient than ever before."_ — Balazs
 
 ### 📚 What This Means for This Repository
 
