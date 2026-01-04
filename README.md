@@ -8,7 +8,7 @@
 
 > **LLM-friendly Markdown conversion of the official Trongate v1 HTML documentation**
 
-This repository provides the complete Trongate v1 documentation converted from HTML to clean, well-structured Markdown format. Designed for seamless integration with AI tools, vector databases, static site generators, and modern documentation workflows.
+This repository provides the complete Trongate v1 documentation converted from HTML to a clean, well-structured Markdown format. Designed for seamless integration with AI tools, vector databases, static site generators, and modern documentation workflows.
 
 > [!IMPORTANT]
 > **Trongate v2 is coming!** Scheduled launch: **6th January 2026** (subject to confirmation). The new version will feature revamped documentation. [Explore the beta →](https://github.com/trongate/Trongate-v2-Dev)
@@ -24,7 +24,6 @@ This repository provides the complete Trongate v1 documentation converted from H
 - [Getting Started](#-getting-started)
 - [Use Cases](#-use-cases)
 - [Conversion Process](#-conversion-process)
-- [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [Status](#-status)
 - [Resources](#-resources)
@@ -38,8 +37,6 @@ The Trongate framework's official documentation is maintained in HTML format. Th
 
 - **AI/LLM Integration**: RAG (Retrieval-Augmented Generation) systems, vector databases, and semantic search
 - **Documentation Platforms**: GitHub Pages, MkDocs, Docusaurus, VuePress, and other static site generators
-- **Version Control**: Track documentation changes with standard diff tools
-- **Automation**: CI/CD pipelines and automated documentation workflows
 - **Custom Tooling**: MCPs, search indexing, and custom documentation systems
 
 **Note**: This repository focuses on Trongate v1 documentation. Trongate v2 with revamped documentation is scheduled for release in early 2026.
@@ -56,9 +53,9 @@ Trongate v2 represents a revolutionary leap forward with groundbreaking architec
 
 #### **Dramatic Engine Size Reduction**
 
-- **v1 Engine**: ~5,530 lines of code
-- **v2 Engine**: ~2,320 lines of code
-- **Result**: 58% reduction in core framework size!
+- **v1 Engine**: ~3,774 lines of code
+- **v2 Engine**: ~1,412 lines of code
+- **Result**: 63% reduction in core framework size!
 
 #### **Module-First Architecture**
 
@@ -75,11 +72,6 @@ This radical simplification means:
 - Faster framework performance
 - Easier to understand and customise
 - AI engines can easily comprehend the entire framework
-- Community can build specialised modules (e.g., `validation_japan` for Japanese form validation)
-
-#### **Built-in Internationalisation**
-
-Creating multilingual sites with localised validation messages becomes a **3-minute task**. Perfect for global applications!
 
 #### **Trongate MX Included**
 
@@ -93,36 +85,21 @@ With the tiny engine size, fully automated AI-driven web development becomes fea
 
 Extensive refactoring and optimisation work have produced remarkable results:
 
-**Benchmark Results** (Apache Bench: 1000 requests, 100 concurrent):
-
-- Test #1: 1,417.03 req/sec
-- Test #2: 1,908.98 req/sec
-- Test #3: 2,192.38 req/sec
-- **Average: ~77% performance improvement over v1** 🚀
-
 > [!NOTE]
-> These benchmarks were conducted on a **Windows 11** system with **PHP 8.4** and **Apache 2.4**. Results may vary based on your specific environment.
-
-![TGv2](https://drive.google.com/file/d/1S7cKtB1OsktCgsmR-1VAKsz9b5ZBeIMv/view?usp=sharing)
+> [Benchmark performed by: NinjaBalazs](https://trongate.io/forums/display/general-discussion/7hjP9Q) on December 25, 2025
+> Machine and benchmark stack: Mac Mini M4 16GB RAM, Apache, Apache Bench, PHP 8.5, MySQL
+<img src="Benchmark%20Results%20Full.png"
+     alt="TGv2 benchmark results"
+     width="100%"
+     style="max-width:640px;">
 
 **Core Optimisations:**
 
-- Streamlined autoloader with single filesystem operation
 - Regex-based custom route matching with static caching (5-10x faster route resolution)
 - Optimised `get_segments()` function (20-30% faster URL parsing)
 - Eliminated double controller instantiation (30-50% faster controller loading)
 - Explicit lazy-loading for framework classes (40-60% faster property access)
 - Priority-based view path resolution (20-30% faster view rendering)
-
-**Overall Impact:**
-
-- 25-40% reduction in framework overhead
-- 15-25% improvement for simple pages
-- 25-40% improvement for complex pages
-- 30-50% improvement under high-traffic scenarios
-
-> [!NOTE]
-> These optimisations were achieved while maintaining backward compatibility and the familiar Trongate development experience.
 
 ### 💬 What the Community is Saying
 
@@ -131,16 +108,6 @@ Extensive refactoring and optimisation work have produced remarkable results:
 > _"Being able to customise/translate validation messages is going to be a huge plus, especially for non-English web applications."_ — Balazs
 
 > _"Other frameworks are becoming increasingly complex, but Trongate is simplifying, speeding up and becoming more efficient than ever before."_ — Balazs
-
-### 📚 What This Means for This Repository
-
-Once Trongate v2 documentation is released, we plan to:
-
-- Create a parallel conversion for v2 documentation
-- Maintain v1 documentation for legacy projects
-- Provide clear versioning and migration guides
-- Continue supporting both versions during the transition period
-- Leverage the new modular architecture for better documentation organisation
 
 > [!TIP]
 > Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/Trongate-v2-Dev) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@GlasgowEqualizer).
@@ -153,8 +120,6 @@ Once Trongate v2 documentation is released, we plan to:
 - **Structured Collections**: Organised by logical groupings matching the official documentation structure
 - **Clean Formatting**: Proper heading hierarchy, code blocks, and markdown conventions
 - **LLM-Optimised**: Formatted for optimal consumption by language models and AI tools
-- **Automated Conversion**: Minimal manual intervention required post-conversion
-- **Extensible**: Easy to integrate into existing documentation workflows
 
 ---
 
@@ -205,9 +170,7 @@ ls -la
 **For Integration:**
 
 - Import into your vector database for RAG applications
-- Use with MCP servers like [Context 7](https://context7.com/)
-- Build a static site with your preferred generator
-- Index for search functionality
+- Use with MCP servers like [Context 7](https://context7.com/dafa66/trongate-docs-md)
 
 **For Development:**
 
@@ -260,36 +223,6 @@ The conversion pipeline follows these steps:
 
 > [!NOTE]
 > The conversion emphasises automation with minimal manual editing. However, complex pages with multi-column layouts, interactive content, or embedded examples may require human review for optimal results.
-
----
-
-## 🗺️ Roadmap
-
-### Planned Features
-
-- [ ] **Book Format Transformation**
-
-  - Remove numeric prefixes from filenames (e.g., `0001-intro.html` → `intro.md`)
-  - Add collection titles and descriptions from `docs_collections.json`
-  - Generate automatic table of contents for each collection
-  - Improve heading hierarchy and structure
-
-- [ ] **Enhanced LLM Integration**
-
-  - Optimise chunking for vector databases
-  - Add metadata frontmatter for better indexing
-  - Create embeddings-friendly formatting
-
-- [ ] **Automation & CI/CD**
-
-  - Automated conversion pipeline on upstream HTML changes
-  - Pull request generation for documentation updates
-  - Continuous integration testing for conversion quality
-
-- [ ] **Publishing Templates**
-  - Pre-configured MkDocs setup
-  - Docusaurus theme and configuration
-  - GitHub Pages deployment workflow
 
 ---
 
