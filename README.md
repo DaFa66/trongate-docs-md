@@ -89,7 +89,7 @@ ls -la
 
 **For Reading:**
 
-- Open any `.md` file in your preferred Markdown viewer
+- Open any `.md` file right here on GitHub, or in your preferred Markdown viewer
 - Navigate through directories to find specific topics
 
 **For Integration:**
