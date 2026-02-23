@@ -205,6 +205,7 @@ Contributions are welcome! Here's how you can help:
 - **HTML Docs Viewer**: [dafadev.net/a1/tgdocs](https://dafadev.net/a1/tgdocs)
   - may not always be available to view online
 - **MkDocs Implementation**: [ums.myds.me/tg_docs/](https://ums.myds.me/tg_docs/)
+- **Chat with the docs or use via an API or MCP**: [Context 7](https://context7.com/dafa66/trongate-docs-md)
 
 ### This Project
 
