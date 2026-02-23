@@ -35,7 +35,7 @@ The Trongate framework's official documentation is maintained in HTML format. Th
 - **Documentation Platforms**: GitHub Pages, MkDocs, Docusaurus, VuePress, and other static site generators
 - **Custom Tooling**: MCPs, search indexing, and custom documentation systems
 
-**Note**: This repository focuses on Trongate v1 documentation, while [Trongate v2 documentation can be found here.](https://trongate.io/documentation)
+**Note**: This repository focuses on Trongate v1 documentation, while the official [Trongate v2 documentation can be found here.](https://trongate.io/documentation)
 
 ---
 
