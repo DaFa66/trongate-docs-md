@@ -199,12 +199,11 @@ Contributions are welcome! Here's how you can help:
 - **Official Documentation**: [trongate.io/documentation](https://trongate.io/documentation)
 - **Framework Repository**: [github.com/trongate/trongate-framework](https://github.com/trongate/trongate-framework)
 - **HTML Docs Source**: [github.com/trongate/trongate-docs](https://github.com/trongate/trongate-docs)
-- **Trongate v2 Beta**: [github.com/trongate/Trongate-v2-Dev](https://github.com/trongate/Trongate-v2-Dev)
 
 ### Community Documentation Projects
 
 - **HTML Docs Viewer**: [dafadev.net/a1/tgdocs](https://dafadev.net/a1/tgdocs)
-  - note: may not always be available 
+  - may not always be available to view online
 - **MkDocs Implementation**: [ums.myds.me/tg_docs/](https://ums.myds.me/tg_docs/)
 
 ### This Project
