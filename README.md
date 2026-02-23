@@ -1,4 +1,4 @@
-# Trongate v1 - Documentation (Markdown)
+## Trongate v1 - Documentation (Markdown)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Trongate](https://img.shields.io/badge/Trongate-grey.svg)](https://trongate.io)
@@ -10,15 +10,11 @@
 
 This repository provides the complete Trongate v1 documentation converted from HTML to a clean, well-structured Markdown format. Designed for seamless integration with AI tools, vector databases, static site generators, and modern documentation workflows.
 
-> [!IMPORTANT]
-> **Trongate v2 is coming!** Scheduled launch: **6th January 2026** (subject to confirmation). The new version will feature revamped documentation. [Explore the beta →](https://github.com/trongate/Trongate-v2-Dev)
-
 ---
 
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [What's Coming: Trongate v2](#-whats-coming-trongate-v2)
 - [Features](#-features)
 - [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
@@ -39,78 +35,7 @@ The Trongate framework's official documentation is maintained in HTML format. Th
 - **Documentation Platforms**: GitHub Pages, MkDocs, Docusaurus, VuePress, and other static site generators
 - **Custom Tooling**: MCPs, search indexing, and custom documentation systems
 
-**Note**: This repository focuses on Trongate v1 documentation. Trongate v2 with revamped documentation is scheduled for release in early 2026.
-
----
-
-## 🚀 What's Coming: Trongate v2
-
-**Trongate v2 is going to be a winner!**
-
-Trongate v2 represents a revolutionary leap forward with groundbreaking architectural changes and a completely revamped documentation experience. Confirmed launch date: **Tuesday, 6th January 2026**.
-
-### 🎯 Major Highlights
-
-#### **Dramatic Engine Size Reduction**
-
-- **v1 Engine**: ~3,774 lines of code
-- **v2 Engine**: ~1,412 lines of code
-- **Result**: 63% reduction in core framework size!
-
-#### **Module-First Architecture**
-
-Almost everything becomes a module:
-
-- Templates → Module
-- Database (DB) → Module
-- Validation → Module
-- Image → Module
-- File → Module
-
-This radical simplification means:
-
-- Faster framework performance
-- Easier to understand and customise
-- AI engines can easily comprehend the entire framework
-
-#### **Trongate MX Included**
-
-The powerful HTMX-style JavaScript library will be included by default (but is optional to use).
-
-#### **AI-Optimised Design**
-
-With the tiny engine size, fully automated AI-driven web development becomes feasible. The framework is being designed for the AI era.
-
-#### **Hyper-Optimised Performance**
-
-Extensive refactoring and optimisation work have produced remarkable results:
-
-> [!NOTE]
-> [Benchmark performed by: NinjaBalazs](https://trongate.io/forums/display/general-discussion/7hjP9Q) on December 25, 2025
-> Machine and benchmark stack: Mac Mini M4 16GB RAM, Apache, Apache Bench, PHP 8.5, MySQL
-<img src="Benchmark%20Results%20Full.png"
-     alt="TGv2 benchmark results"
-     width="100%"
-     style="max-width:640px;">
-
-**Core Optimisations:**
-
-- Regex-based custom route matching with static caching (5-10x faster route resolution)
-- Optimised `get_segments()` function (20-30% faster URL parsing)
-- Eliminated double controller instantiation (30-50% faster controller loading)
-- Explicit lazy-loading for framework classes (40-60% faster property access)
-- Priority-based view path resolution (20-30% faster view rendering)
-
-### 💬 What the Community is Saying
-
-> _"The current Trongate is wonderful and easy to use. The flexible becomes even more flexible. And not only is it not at the expense of a slower system, but it speeds things up. Superb!"_ — r-evo
-
-> _"Being able to customise/translate validation messages is going to be a huge plus, especially for non-English web applications."_ — Balazs
-
-> _"Other frameworks are becoming increasingly complex, but Trongate is simplifying, speeding up and becoming more efficient than ever before."_ — Balazs
-
-> [!TIP]
-> Want to get a head start? Check out the [Trongate v2 beta repository](https://github.com/trongate/Trongate-v2-Dev) to explore what's coming! You can also watch the framework being rebuilt live on the [Trongate YouTube channel](https://www.youtube.com/@GlasgowEqualizer).
+**Note**: This repository focuses on Trongate v1 documentation, while [Trongate v2 documentation can be found here.](https://trongate.io/documentation)
 
 ---
 
@@ -279,8 +204,8 @@ Contributions are welcome! Here's how you can help:
 ### Community Documentation Projects
 
 - **HTML Docs Viewer**: [dafadev.net/a1/tgdocs](https://dafadev.net/a1/tgdocs)
+  - note: may not always be available 
 - **MkDocs Implementation**: [ums.myds.me/tg_docs/](https://ums.myds.me/tg_docs/)
-- **Doxygen Documentation**: [vtlsoftware.co.uk/trongatedocs/](https://vtlsoftware.co.uk/trongatedocs/index.html)
 
 ### This Project
 
