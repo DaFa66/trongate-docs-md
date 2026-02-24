@@ -8,7 +8,7 @@ A Trongate module is typically organized into three primary directories, each se
 - **Views:** The views directory houses presentational content, primarily HTML. These PHP files are designed to integrate seamlessly with HTML, focusing on the user interface rather than business logic. This directory is optional, as not all modules produce presentational output.
 - **Assets:** This directory stores additional resources such as CSS, JavaScript, images, and configuration files for API endpoints. Like the views directory, this is optional and only included when necessary.
 
-![The basic structure of a typical Trongate module](https://trongate.io/images/65/trongate7MEL.png)
+![The basic structure of a typical Trongate module](https://dafadev.net/a1/images/65/trongate7MEL.png)
         
 *The basic structure of a typical Trongate module.*
 > [!NOTE]

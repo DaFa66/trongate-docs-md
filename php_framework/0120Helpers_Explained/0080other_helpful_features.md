@@ -166,7 +166,7 @@ Sample output:
 
 
 
-    ![screenshot](https://trongate.io/images/35/json_scrfqQY.png)
+    ![screenshot](https://dafadev.net/a1/images/35/json_scrfqQY.png)
     
 *Screenshot showing sample output after having invoked the `json()` function.*
 

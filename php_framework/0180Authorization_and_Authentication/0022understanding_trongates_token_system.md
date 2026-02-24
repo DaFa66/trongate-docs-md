@@ -59,7 +59,7 @@ Tokens are automatically purged from the database once they expire, ensuring a h
 
 To visualize how these tables interact, refer to the following **table joins screenshot**, which illustrates the relationships between `trongate_tokens`, `trongate_users`, and `trongate_user_levels`.
 
-![The contents of a basic Trongate web application](https://trongate.io/images/tokens_tables.webp)
+![The contents of a basic Trongate web application](https://dafadev.net/a1/images/tokens_tables.webp)
         
 *How the database tables involved in authorization and authentication are related.*
 ## How Tokens Enable Secure Access

@@ -117,7 +117,7 @@ This kind of URL could rightfully be considered to be **super search engine frie
 
 The first step to creating a super search engine friendly URL, as described above, would involve giving all of our products a unique 'slug'. In the Trongate Desktop App, this gets called a 'URL column'.
 
-![The Trongate Desktop App](https://trongate.io/images/choose_ufaFH.gif)
+![The Trongate Desktop App](https://dafadev.net/a1/images/choose_ufaFH.gif)
         
 *Choosing a URL column*
 

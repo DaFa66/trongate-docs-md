@@ -5,7 +5,7 @@ The Trongate framework includes a built-in [Pagination class](../../reference/cl
 
 
 
-    ![screenshot](https://trongate.io/images/32/paginatiVwds.png)
+    ![screenshot](https://dafadev.net/a1/images/32/paginatiVwds.png)
     
 *Pagination screenshot.*
 

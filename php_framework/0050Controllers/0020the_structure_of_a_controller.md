@@ -122,7 +122,7 @@ The `roll()` method can be invoked by navigating to the following URL:
 `http://example.com/dice/roll`
 This URL structure would cause the 'roll' method to be invoked, generating a random number between one and six using PHP's inbuilt rand() function. The random number that has been generated would then be displayed on the screen.
 
-![Sample output](https://trongate.io/images/73/roll_theZzyt.png)
+![Sample output](https://dafadev.net/a1/images/73/roll_theZzyt.png)
         
 *Sample browser output (zoomed in for clarity)*
 ## URL Mapping and Routing

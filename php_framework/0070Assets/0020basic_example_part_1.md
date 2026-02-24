@@ -71,7 +71,7 @@ To verify, open a web browser and navigate to the application homepage, followed
 
 
 
-    ![browser screenshot](https://trongate.io/images/3/_hello_wHCMx.png)
+    ![browser screenshot](https://dafadev.net/a1/images/3/_hello_wHCMx.png)
     
 *Screenshot taken from the URL, <base-url>welcome/hello*
 

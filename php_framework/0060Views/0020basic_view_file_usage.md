@@ -108,7 +108,7 @@ To render the view file in the browser, navigate to `BASE_URL/welcome/greeting`.
     If the `greeting()` method and the corresponding 'greeting.php' view file are correctly implemented, 
     the browser will display output similar to the following:
 
-![Screenshot demonstrating the rendering of a simple view file.](https://trongate.io/images/78/greetingPZK7.png)
+![Screenshot demonstrating the rendering of a simple view file.](https://dafadev.net/a1/images/78/greetingPZK7.png)
         
 *Screenshot demonstrating the rendering of a simple view file.*
 ## Conclusion

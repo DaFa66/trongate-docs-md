@@ -25,7 +25,7 @@ In Trongate, each module within the modules directory functions as an independen
 
 The graphic below illustrates the typical structure of the modules directory. The two-way arrows indicate bidirectional communication between modules, allowing them to exchange information with both controller and view files.
 
-![Diagram of Trongate Modules Directory](https://trongate.io/images/25/havcuSkk.png)
+![Diagram of Trongate Modules Directory](https://dafadev.net/a1/images/25/havcuSkk.png)
         
 *A Visual Representation of Hierarchical Assets View Controller Architecture.*
 ## HAVC vs. HMVC
